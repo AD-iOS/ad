@@ -306,6 +306,24 @@ Author: AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: 公告
 
+Package: com.build.ipa.filza.ad
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: iOS-AD
+Depends: firmware (>= 15.0)
+Filename: ./debs/iphoneos-arm64/Filza-Expand/com.build.ipa.filza.ad_1.0_iphoneos-arm64.deb
+Size: 1416
+MD5sum: 923f8f02a9b07bfdb81f6dfe8425f60f
+SHA1: 5bc3679a33e68d611d97b7e317ee9a0fd84f520e
+SHA256: 4ad35818d06a34e8ad61f56e32fc80ca2ff04b419d7225701eb2fc23a0003e7f
+Section: Filza-Expand
+Priority: required
+Description: 给 Filza 添加打包 IPA 的快捷方法
+  - 长按 Payload 文件夹找到 scripts 选项点击 Build IPA 即可打包成 IPA
+Author: iOS-AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: FilzaScripts Build IPA
+
 Package: com.couhege1380.BatteryMaster
 Version: 1.0.0
 Architecture: iphoneos-arm64
