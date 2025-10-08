@@ -1,6 +1,6 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "https://ios-gm.github.io/zqzb/sileodepiction/Default/top_0.png",
+    "headerImage": "https://ad-ios.github.io/ad/sileodepiction/Default/top_0.png",
     "tintColor": "#1DBBFF",
     "minVersion": "0.3",
     "tabs": [
@@ -20,7 +20,7 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://raw.githubusercontent.com/ios-gm/zqzb/main/sileodepiction/vnodebypassnext/Screenshot_01.png"
+                            "url": "https://raw.githubusercontent.com/ad-ios/ad/main/sileodepiction/vnodebypassnext/Screenshot_01.png"
                         }
                     ]
                 },
