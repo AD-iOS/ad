@@ -216,6 +216,23 @@ Author: AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: iOS Theos
 
+Package: com.empty-theos.ad
+Version: 1.0
+Architecture: iphoneos-all
+Maintainer: AD
+Installed-Size: 603.1MB
+Filename: ./debs/iphoneos-arm64/Theos/com.empty-theos.ad_1.0_iphoneos-all.deb
+Size: 16732360
+MD5sum: 392ed9e501f6b05634015da7fb2dba1f
+SHA1: 55b8bfb8fd5484b10c9da2c3365fa48c982683c7
+SHA256: 08e3f5682cdcbc7ce8728d67f980072903990abf4e04768d12387e37e64684a0
+Section: Theos/SDK
+Description: iOS Theos
+  - iOS Theos 沒有SDK的theos,需要自己補齊SDK
+Author: AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: iOS Theos
+
 Package: com.netskao.BiliPurify
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -369,6 +386,21 @@ Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: firmware (>> 15.0), mobilesubstrate, preferenceloader
 Filename: ./debs/iphoneos-all/repofix.deb
+Size: 1092
+MD5sum: 4336cbbf3793a33766421920a200bc00
+SHA1: 458c1a179029afc7b841241b826c176cea206750
+SHA256: f2e1fc2a2399bd49a6aa60dc6cf9a4469ec4c17854d1450b53aa5545163bb47c
+Section: System系统
+Description: Fuck Sileo Repo Load Question.
+Author: LF
+Name: RepoFix
+
+Package: repofix
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: firmware (>> 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/iphoneos-arm64/system/repofix.deb
 Size: 1092
 MD5sum: 4336cbbf3793a33766421920a200bc00
 SHA1: 458c1a179029afc7b841241b826c176cea206750
