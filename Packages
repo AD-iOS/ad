@@ -102,6 +102,33 @@ Name: A1
 
 Package: com.AD.10086
 Version: 1.0
+Architecture: iphoneos-all
+Maintainer: iOS-AD
+Depends: ios (>= 999.0), firmware (>= 99.0), iPadOS (>=999.0)
+Filename: ./debs/iphoneos-all/com.AD.10086_1.0_iphoneos-all.deb
+Size: 1316
+MD5sum: 2841228c5a6d26a689fb67f2c0e8ea37
+SHA1: b8e39f8824d99173a1f9724109ef3e2ad0306cfd
+SHA256: fb82149e3965d86b9c95a8e12d233686bd299db2c59547a51ccf4c088d024efa
+Section: 源公告
+Priority: required
+Description: iOS-AD源官方公告。
+  - 声明一下：本源只是将网上作者分享的插件、交流群群友做的插件、以及源主做的插件上传到本源。
+  - 其中网上作者发现的插件和群友做的插件未做任何修改。
+  - 部分插件标识符和作者插件一致导致显示问题，这是Cydia/Sileo的默认规则导致（先添加谁的源就会显示谁的），并非我们劫持插件。
+  - 若本源的部分插件或者软件安装后无法使用的话可以添加搬运工源(byg.iosios.net)去下载对应的版本或者去其他源下载对应的版本或者可以联系源主去修复。
+  - 因为源是GitHub托管的所以服务器在美国，遇到下载问题请尝试：切换VPN或者更换网络环境。
+  - 交流群：
+   - QQ1群：1030152896
+   - QQ2群：837894083
+   - QQ文件群: 1027358518
+Author: iOS-AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: iOS-AD源公告
+Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/com.AD.10086/js.json
+
+Package: com.AD.10086
+Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: iOS-AD
 Depends: ios (>= 999.0), firmware (>= 99.0), iPadOS (>=999.0)

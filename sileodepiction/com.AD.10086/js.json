@@ -62,7 +62,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "不支持所有系統(因為僅可查看)",
+                    "markdown": "不支持所有系統\n\n(因為僅可查看)",
                     "title": "理论支持系统范围"
                 },
                 {
