@@ -1,0 +1,113 @@
+{
+    "class": "DepictionTabView",
+    "headerImage": "https://ios-gm.github.io/zqzb/sileodepiction/Default/top_0.png",
+    "tintColor": "#1DBBFF",
+    "minVersion": "0.3",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "描述",
+            "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "**Hide jailbreak traces and bypass detection mechanisms.**\n\nAutomatically configures paths and fixes post-removal issues. Compatible with Dopamine environment. Initial installation may take extra time due to path setup—please be patient!\n\n**隐藏越狱痕迹，绕过检测机制**\n\n自动配置路径，修复卸载残留问题。兼容 Dopamine 越狱环境，首次安装可能因路径配置稍有延迟，请耐心等待～(づ￣ 3￣)\n\n添加安装完成后重启SpringBoard弹窗的支持",
+                    "useRawFormat": false
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "itemSize": "{160, 346.4533333333333}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://raw.githubusercontent.com/ios-gm/zqzb/main/sileodepiction/vnodebypassnext/Screenshot_01.png"
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "详情",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "XsF1re,ichitaso,level3tjg",
+                    "title": "创作者"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "LF, AD",
+                    "title": "维护者"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "排名没有先后排序",
+                    "title": "备注"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "0.4.5-Next",
+                    "title": "最新版本"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "15-16.6.1",
+                    "title": "理论支持系统范围"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "2025 年 10 月 02 日",
+                    "title": "最后更新日期"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "更新日志",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.4.5.2-Next",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "由AD添加prerm和preinst使其可以移除前完整卸載和更新時卸載就版本內容",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.4.5-Next",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "由AD添加在安装完成后用户可以自己选择是否重启SpringBoard的操作",
+                    "useRawFormat": true
+                }
+            ]
+        }
+    ]
+}

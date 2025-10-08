@@ -1,0 +1,14 @@
+Origin: iOS-AD Repo
+Label: iOS-AD Repo
+Suite: AD
+Codename: AD
+Version: 1.0
+Maintainer: AD
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e iphoneos-all
+Components: main
+Description: iOS-AD Repo — 提供越狱插件、自制工具及精选第三方插件
+Date: Wed, 08 Oct 2025 01:17:12 UTC
+MD5Sum:
+ 3e61e34337009724852e959bbfddecee 28983 Packages
+ 728aee7dc80a3aef275a522aed7fde11 12758 Packages.gz
+ 2100640c36ad3b8337b255aa29deaceb 11427 Packages.bz2
