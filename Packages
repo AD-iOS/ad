@@ -3,12 +3,12 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: bash
-Filename: ./debs/iphoneos-arm64/The-font/1688SHFonts_1.0_iphoneos-arm64.deb
-Size: 5801912
-MD5sum: f60dd2060a58f26796748d99a719f3ed
-SHA1: 509dcaf327d3faf3d7f84a645727ba6035d30050
-SHA256: ad27096e92ef6c24a701ad7c6e837e0e57acdb43c60abc15dd7b26a26ef207a1
-Section: The-font
+Filename: ./debs/iphoneos-arm64/Theme/1688SHFonts_1.0_iphoneos-arm64.deb
+Size: 5805712
+MD5sum: 08066dfb319eea6967cfc3b431422f60
+SHA1: 8f6e18d3a49ade7f60184f7ecf0577480873ae02
+SHA256: a9376abb8067b8aea20f08c968e445dede7635d8438130d3cdc9bb4a53e7696f
+Section: Themes主题
 Description: 阿里巴巴官方数黑体，支持真皮挂载的完美字体！
   - 使用说明：
     1. 在真皮多巴胺中挂载 /System/Library/Fonts 目录
@@ -100,6 +100,87 @@ Author: LF
 Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
 Name: A1
 
+Package: com.AD.10086
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: iOS-AD
+Depends: ios (>= 999.0), firmware (>= 99.0), iPadOS (>=999.0)
+Filename: ./debs/iphoneos-arm64/10086/com.AD.10086_1.0_iphoneos-arm64.deb
+Size: 1320
+MD5sum: 899f65d9d78de254f3c7b20351470d76
+SHA1: 6960db8f78fd3102750ff990f541ca5da41303a2
+SHA256: be7e42b0242cd6cb8aebe772bd27eb5a3ec897d9f0d8983cf06f8b8f2bcb4820
+Section: 源公告
+Priority: required
+Description: iOS-AD源官方公告。
+  - 声明一下：本源只是将网上作者分享的插件、交流群群友做的插件、以及源主做的插件上传到本源。
+  - 其中网上作者发现的插件和群友做的插件未做任何修改。
+  - 部分插件标识符和作者插件一致导致显示问题，这是Cydia/Sileo的默认规则导致（先添加谁的源就会显示谁的），并非我们劫持插件。
+  - 若本源的部分插件或者软件安装后无法使用的话可以添加搬运工源(byg.iosios.net)去下载对应的版本或者去其他源下载对应的版本或者可以联系源主去修复。
+  - 因为源是GitHub托管的所以服务器在美国，遇到下载问题请尝试：切换VPN或者更换网络环境。
+  - 交流群：
+   - QQ1群：1030152896
+   - QQ2群：837894083
+   - QQ文件群: 1027358518
+Author: iOS-AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: iOS-AD源公告
+Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/com.AD.10086/js.json
+
+Package: com.AD.10086
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: iOS-AD
+Depends: ios (>= 999.0), firmware (>= 99.0), iPadOS (>=999.0)
+Filename: ./debs/iphoneos-arm64e/com.AD.10086_1.0_iphoneos-arm64e.deb
+Size: 1320
+MD5sum: 6f6fc498d9f61753dd4246e21284a14c
+SHA1: 8bfd7bf122231b14069890bfd1959010e9548c5d
+SHA256: c5141b16bcf5f3e30944d4febff91d51ac7c8c93ea41694032f34b2b022134d7
+Section: 源公告
+Priority: required
+Description: iOS-AD源官方公告。
+  - 声明一下：本源只是将网上作者分享的插件、交流群群友做的插件、以及源主做的插件上传到本源。
+  - 其中网上作者发现的插件和群友做的插件未做任何修改。
+  - 部分插件标识符和作者插件一致导致显示问题，这是Cydia/Sileo的默认规则导致（先添加谁的源就会显示谁的），并非我们劫持插件。
+  - 若本源的部分插件或者软件安装后无法使用的话可以添加搬运工源(byg.iosios.net)去下载对应的版本或者去其他源下载对应的版本或者可以联系源主去修复。
+  - 因为源是GitHub托管的所以服务器在美国，遇到下载问题请尝试：切换VPN或者更换网络环境。
+  - 交流群：
+   - QQ1群：1030152896
+   - QQ2群：837894083
+   - QQ文件群: 1027358518
+Author: iOS-AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: iOS-AD源公告
+Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/com.AD.10086/js.json
+
+Package: com.AD.10086
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: iOS-AD
+Depends: ios (>= 999.0), firmware (>= 99.0), iPadOS (>=999.0)
+Filename: ./debs/iphoneos-arm/com.AD.10086_1.0_iphoneos-arm.deb
+Size: 1316
+MD5sum: 453768ba075e792bb5e9378ab6340f38
+SHA1: fd659c1dc3d59a1270aa227dc6812cc7b68009f9
+SHA256: 10d1c070407f4bf18de23c7b6177c63f83e479a77e12113aeeaf1b78aa10edb0
+Section: 源公告
+Priority: required
+Description: iOS-AD源官方公告。
+  - 声明一下：本源只是将网上作者分享的插件、交流群群友做的插件、以及源主做的插件上传到本源。
+  - 其中网上作者发现的插件和群友做的插件未做任何修改。
+  - 部分插件标识符和作者插件一致导致显示问题，这是Cydia/Sileo的默认规则导致（先添加谁的源就会显示谁的），并非我们劫持插件。
+  - 若本源的部分插件或者软件安装后无法使用的话可以添加搬运工源(byg.iosios.net)去下载对应的版本或者去其他源下载对应的版本或者可以联系源主去修复。
+  - 因为源是GitHub托管的所以服务器在美国，遇到下载问题请尝试：切换VPN或者更换网络环境。
+  - 交流群：
+   - QQ1群：1030152896
+   - QQ2群：837894083
+   - QQ文件群: 1027358518
+Author: iOS-AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: iOS-AD源公告
+Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/com.AD.10086/js.json
+
 Package: com.AD.MemoryOptimization
 Version: 1.0.5
 Architecture: iphoneos-arm64
@@ -183,6 +264,21 @@ Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: iOS ADB (Apple-iPhone Debug Bridge)
 Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/com.adb.sct-ad/js.json
 
+Package: com.arm.10086.announcement.ad
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: AD
+Filename: ./debs/iphoneos-arm/com.arm.10086.announcement.ad_1.0_iphoneos-arm.deb
+Size: 772
+MD5sum: 2ab137fbd966f9b7ac79fa78aefc4f51
+SHA1: f778d56ce22427fc4e5d76cb280ada4bdcaa411b
+SHA256: 06ada0b0f47789588592ae2e0bffaf62527ddbbc59426d6629cc638736b23801
+Section: 10086公告
+Description: 很抱歉本源不支持 arm 架構的設備了
+Author: AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: 公告
+
 Package: com.couhege1380.BatteryMaster
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -212,24 +308,6 @@ SHA256: 08e3f5682cdcbc7ce8728d67f980072903990abf4e04768d12387e37e64684a0
 Section: Theos/SDK
 Description: iOS Theos
   - iOS Theos 沒有SDK的theos,需要自己補齊SDK
-Author: AD
-Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-Name: iOS Theos
-
-Package: com.empty-theos.ad
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: AD
-Installed-Size: 603.1MB
-Filename: ./debs/iphoneos-arm64/Theos/com.empty-theos.ad_1.0_iphoneos-arm.deb
-Size: 16727908
-MD5sum: d28ee16685095f7be9bee86cc76e7d00
-SHA1: 0eddae81e6d76d1ee1a0369d39841817c3c0e2df
-SHA256: d94417fcdd60e87097448a582d3fc92a637bdbf435f8383d7cfd5cfab9a1a75b
-Section: Theos/SDK
-Description: iOS Theos
-  - iOS Theos 沒有SDK的theos,需要自己補齊SDK
-  - 很想吐槽的一點就是 all 在 sileo 中不是通用的意思
 Author: AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: iOS Theos
@@ -266,24 +344,6 @@ Section: Theos/SDK
 Description: iOS Theos
   - iOS Theos 沒有SDK的theos,需要自己補齊SDK
   - 很想吐槽的一點就是 all 在 sileo 不是通用的意思
-Author: AD
-Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-Name: iOS Theos
-
-Package: com.empty-theos.ad
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: AD
-Installed-Size: 603.1MB
-Filename: ./debs/iphoneos-arm/com.empty-theos.ad_1.0_iphoneos-arm.deb
-Size: 16727908
-MD5sum: d28ee16685095f7be9bee86cc76e7d00
-SHA1: 0eddae81e6d76d1ee1a0369d39841817c3c0e2df
-SHA256: d94417fcdd60e87097448a582d3fc92a637bdbf435f8383d7cfd5cfab9a1a75b
-Section: Theos/SDK
-Description: iOS Theos
-  - iOS Theos 沒有SDK的theos,需要自己補齊SDK
-  - 很想吐槽的一點就是 all 在 sileo 中不是通用的意思
 Author: AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: iOS Theos
@@ -471,11 +531,11 @@ Architecture: iphoneos-arm64
 Maintainer: alias20, LF, AD
 Depends: firmware (>= 15.0), firmware (<< 17.0), com.opa334.ccsupport, libkrw0-dopamine (>= 2.0)
 Filename: ./debs/iphoneos-arm64/system/vnodebypassnext_0.4.5.2-Next_iphoneos-arm64.deb
-Size: 65092
-MD5sum: de11d9b2902dfec7b96bc943a5aeebd6
-SHA1: b0c6d52d0c50a18336de3fa2da3e1125b9194a34
-SHA256: 85bb31d2169874c70b22390c1d23bf0f0553e67be874fc0978fb030e6c7a81a3
-Section: System
+Size: 65084
+MD5sum: fddb975dd901e698299f79c81a79064d
+SHA1: e3b8f122f4ef40a5762072e988963e23bea1a0de
+SHA256: 897bf32b23c3d403c299a2706e243d4ee5def86bb7af3a497d861debf1e86c97
+Section: System系统
 Description: Hide jailbreak traces and bypass detection mechanisms. Automatically configures paths and fixes post-removal issues. Compatible with Dopamine environment. Initial installation may take extra time due to path setup—please be patient! 隐藏越狱痕迹，绕过检测机制，自动配置路径，修复卸载残留问题。兼容 Dopamine 越狱环境，首次安装可能因路径配置稍有延迟，请耐心等待～(づ￣ 3￣)づ
   - 添加安装完成后重启SpringBoard弹窗的支持
 Author: XsF1re, ichitaso, level3tjg, LF, AD
