@@ -1,16 +1,16 @@
 {
  "class": "FeaturedBannersView",
- "itemSize": "{263, 148}",
+ "itemSize": "{2000, 1000}",
  "itemCornerRadius": 10,
  "banners": [
   {
-   "url": "https://ad-ios.github.io/ad/sileodepiction/Default/top_0.svg",
+   "url": "https://ad-ios.github.io/ad/sileodepiction/Default/top_1.png",
    "title": "adb",
    "package": "com.adb.sct-ad",
    "hideShadow": false
   },
   {
-   "url": "https://ad-ios.github.io/ad/sileodepiction/Default/top_0.svg",
+   "url": "https://ad-ios.github.io/ad/sileodepiction/Default/top_1.png",
    "title": "源公告",
    "package": "com.AD.10086",
    "hideShadow": false
