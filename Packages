@@ -410,6 +410,23 @@ Author: Netskao
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: BiliPurify 哔哩哔哩净化
 
+Package: com.pkill.ad
+Version: 0.1
+Architecture: iphoneos-arm64
+Maintainer: AD
+Depends: firmware (>= 15.0)
+Filename: ./debs/iphoneos-arm64/system/com.pkill.ad_0.1_iphoneos-arm64.deb
+Size: 30428
+MD5sum: 0c9f7b2aaf807a4aa5430d9f7c81a7a4
+SHA1: 8e57bbc770f045fb5de32c1c6e7293f370485e77
+SHA256: f8f7cea2c4b9f0204202aef265c256a8a0b7f97f813fda14bf98123ab3fdb736
+Section: System系统
+Description: pkill 一個強大的工具 您可以根據進程名直接殺死這個進程
+ - 具體輸入 pkill -h 後查看
+Author: AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: pkill
+
 Package: com.plicationsnext
 Version: 4.0
 Architecture: iphoneos-arm64
