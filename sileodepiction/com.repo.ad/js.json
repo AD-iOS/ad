@@ -10,7 +10,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "**免費託管軟件源倉庫**\n\n託管服務是給不會搭建軟件源的人用的\n\n服務內容:\n\n1. 免費搭建軟件源倉庫\n\n2. 託管鏈接在https://ad-ios.github.io/ad/repo/中\n\n3. 託管的軟件源隨時可以要回去但是需要給部分deb(具體查看詳情說明頁面)\n\n4. 可以要求創建任意文件夾或文件但是危險操作風險自負",
+                    "markdown": "**免費託管軟件源倉庫**\n\n託管服務是給不會搭建軟件源的人用的\n\n服務內容:\n\n1. 免費搭建軟件源倉庫\n\n2. 託管鏈接在https://ad-ios.github.io/ad/repo/中\n\n3. 託管的軟件源隨時可以要回去但是需要給部分deb(具體查看詳情說明頁面)\n\n4. 可以要求創建任意文件夾或文件但是危險操作風險自負\n\n聯繫: QQ:3897069329 轉讓deb文件的QQ: 3897069329",
                     "useRawFormat": false
                 },
                 {
@@ -118,7 +118,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "**託管鏈接示例: ** \n\n 示例鏈接: https://ad-ios.github.io/ad/repo/ad \n\n https://ad-ios.github.io/ad/repo/aaa \n\n以上為示例鏈接如果您希望鏈接變更則需要提前說明\n\n但是https://ad-ios.github.io/ad/repo/鏈接不可變更您只可以變更比如aaa這種",
+                    "markdown": "示例鏈接: https://ad-ios.github.io/ad/repo/ad \n\n https://ad-ios.github.io/ad/repo/aaa \n\n以上為示例鏈接如果您希望鏈接名稱變更則需要提前說明 - 但是https://ad-ios.github.io/ad/repo/此鏈接不可變更您只可以變更比如repo/aaa的aaa這種名稱",
                     "useRawFormat": false
                 }
             ]
