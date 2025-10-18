@@ -82,68 +82,68 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "1.5",
+                    "title": "1.5更新日志",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "1.5更新日志: <br> 集成 aJetsamctl 与 swapon (AD) <br> 扩展进程管理范围，覆盖更多系统服务 <br> 修改postinst与postrm <br> 去除a1、a1laucher的.sh后缀 <br> 增加多个内核优化 <br> AD添加了更新日誌可以在sileo中直接查看A1的更新日志",
+                    "markdown": "集成 aJetsamctl 与 swapon (AD) <br> 扩展进程管理范围，覆盖更多系统服务 <br> 修改postinst与postrm <br> 去除a1、a1laucher的.sh后缀 <br> 增加多个内核优化 <br> AD添加了更新日誌可以在sileo中直接查看A1的更新日志",
                     "useRawFormat": true
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "1.4",
+                    "title": "1.4更新日志",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "1.4更新日志: <br> Enhanced compatibility with additional applications. <br> 扩展应用兼容性列表，支持更多第三方应用。",
+                    "markdown": "Enhanced compatibility with additional applications. <br> 扩展应用兼容性列表，支持更多第三方应用。",
                     "useRawFormat": true
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "1.3",
+                    "title": "1.3更新日志",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "1.3更新日志: <br> Added post-removal cleanup script | 新增卸载清理脚本 <br> Fixed path resolution issues (grep/awk/sysctl) | 修复路径解析錯誤  <br> Extended application compatibility list | 扩展应用兼容性列表 <br> Implemented log rotation to prevent disk space exhaustion | 新增日志轮转机制，避免磁盘空间耗尽",
+                    "markdown": "Added post-removal cleanup script | 新增卸载清理脚本 <br> Fixed path resolution issues (grep/awk/sysctl) | 修复路径解析錯誤  <br> Extended application compatibility list | 扩展应用兼容性列表 <br> Implemented log rotation to prevent disk space exhaustion | 新增日志轮转机制，避免磁盘空间耗尽",
                     "useRawFormat": true
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "1.2",
+                    "title": "1.2更新日志",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "1.2更新日志: <br> 1.2的更新日誌沒有寫或者被遺忘了",
+                    "markdown": "1.2的更新日誌沒有寫或者被遺忘了",
                     "useRawFormat": true
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "1.1",
+                    "title": "1.1更新日志",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "1.1更新日志: <br> 1.1的更新日誌沒有寫或者被遺忘了",
+                    "markdown": "1.1的更新日誌沒有寫或者被遺忘了",
                     "useRawFormat": true
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "1.0",
+                    "title": "1.0更新日志",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "1.0更新日志: <br> 1.0的更新日誌沒有寫或者被遺忘了",
+                    "markdown": "1.0的更新日誌沒有寫或者被遺忘了",
                     "useRawFormat": true
                 }
             ]
