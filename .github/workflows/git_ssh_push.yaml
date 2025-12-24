@@ -1,0 +1,10 @@
+# .github/workflows/git_ssh_push.yaml
+name: Placeholder - To be deleted
+on:
+  workflow_dispatch:  # 只允许手动触发
+
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "This workflow will be deleted"
