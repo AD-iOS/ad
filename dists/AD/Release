@@ -5,8 +5,8 @@ Codename: AD
 Version: 1.0
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e all
 Components: main
-Description: iOS-AD' Repo 由 AD 自己搭建的個人軟件源倉庫
-Date: Tue, 18 Nov 2025 00:33:11 +0800
+Description: iOS-AD Repo — 提供越狱插件、自制工具及精选第三方插件
+Date: Thu, 25 Dec 2025 23:45:59 +0800
 MD5Sum:
  1500a6c6ada906a42158d895ed023d3d 3910 main/binary-iphoneos-arm/Packages
  101ef92e0c91ad4c25484aac119c7eae 1460 main/binary-iphoneos-arm/Packages.xz

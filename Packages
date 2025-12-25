@@ -613,7 +613,7 @@ Version: 1.1.1
 Architecture: all
 Maintainer: AD
 Depends: firmware (>= 14.0)
-Filename: ./pool/main/binary-all/c/com.AD.home.ad_1.1.1_all.deb
+Filename: ./pool/main/history/binary-all/c/com.AD.home.ad_1.1.1_all.deb
 Size: 879584
 MD5sum: c9753132bdd65530e8d43c868ed4b83e
 SHA1: 1e744b9760f883423f8014cf2212063a70e09953
@@ -628,6 +628,24 @@ Description: AD 的家目錄, 這是 AD 工作兼家目錄用的
 Author: AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: AD的家目錄
+
+Package: com.AD.home.ad
+Version: 1.2.0
+Architecture: all
+Maintainer: AD
+Depends: firmware (>= 11.0)
+Filename: ./pool/main/binary-all/c/com.AD.home.ad_1.2.0_all.deb
+Size: 876316
+MD5sum: 6405f6528e3e9ed93509988f1ff5a050
+SHA1: 70f81c2f2623b2c4f120be81af13dba8fabcd925
+SHA256: 49660255fcf763875ceb4b3c904c3a15921c3b35bc0d9ee933a35cc2075f3578
+Section: System系统
+Description: AD 的 開發庫
+ - 主要是開發 iOS 插件時使用的, 自帶了一點點 xun 內核頭文件
+ - 添加了 entitlements 目錄 可以存放 entitlements.plist 或者 entitlements.xml 權限文件
+Author: AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: AD lib
 
 Package: com.AD.repo.ad
 Version: 1.0.1
@@ -764,24 +782,6 @@ Maintainer: AD
 Pre-Depends: openssh, zsh, unzip
 Depends: openssh, zsh, unzip, sudo, dpkg, apt, coreutils, less
 Filename: ./pool/main/history/iphoneos-arm64/c/com.adb.sct-ad_2.6-39_iphoneos-arm64.deb
-Size: 7932
-MD5sum: 5bc79dcf1c3b0bbad2f77bf2769b9a00
-SHA1: 9d80798d474e4dd7fab3085b8b7421907315ffd5
-SHA256: 68bcb336ce0a4f38191af36590007d9575b02a07e4fddfb2abf5406b1b88406e
-Section: CLI-Tool
-Description: 一款仿Android的ADB的终端插件,<br></br>不过现在和Android的ADB已经有很多区别了,<br></br>下载完成后终端输入adb --help查看完整命令或者查看截图
-Author: AD
-Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-Name: iOS ADB (Apple-iPhone Debug Bridge)
-Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/com.adb.sct-ad/js.json
-
-Package: com.adb.sct-ad
-Version: 2.6-39
-Architecture: iphoneos-arm64
-Maintainer: AD
-Pre-Depends: openssh, zsh, unzip
-Depends: openssh, zsh, unzip, sudo, dpkg, apt, coreutils, less
-Filename: ./pool/main/iphoneos-arm64/c/com.adb.sct-ad_2.6-39_iphoneos-arm64.deb
 Size: 7932
 MD5sum: 5bc79dcf1c3b0bbad2f77bf2769b9a00
 SHA1: 9d80798d474e4dd7fab3085b8b7421907315ffd5
@@ -1201,6 +1201,23 @@ Size: 1156
 MD5sum: 4c0597a8272393156b6fd5b3b91b46b8
 SHA1: df946eafca4bb0e848b98893d7b68002a9e113c6
 SHA256: 8868b66500f22da56b7d340d38aab391c9da6b7b2e7f9a583a979fdcbc0559ed
+Section: System系统
+Description: Fuck Sileo Repo Load Question.
+ - 添加 LF 的源
+ - 安裝完成後需要重啟一下 sileo 來刷新軟件源
+Author: LF
+Name: RepoFix
+
+Package: repofix
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: LF
+Depends: firmware (>> 15.0), mobilesubstrate, preferenceloader
+Filename: ./pool/main/iphoneos-arm64e/r/repofix_1.0.1_iphoneos-arm64e.deb
+Size: 1156
+MD5sum: 4e7c648c4d9082eb5dc3d5cafff1df87
+SHA1: 120dcfbdc477758133ebc077940f3470314d8365
+SHA256: 5ff7db7ca07e8af5376f4cb41ea4d7901a60958225119444e24f317b90839675
 Section: System系统
 Description: Fuck Sileo Repo Load Question.
  - 添加 LF 的源
