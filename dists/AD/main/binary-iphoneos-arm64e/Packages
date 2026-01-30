@@ -31,3 +31,20 @@ Author: AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: iOS Theos
 
+Package: repofix
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: LF
+Depends: firmware (>> 15.0), mobilesubstrate, preferenceloader
+Filename: ./pool/main/arm64e/r/repofix_1.0.1_iphoneos-arm64e.deb
+Size: 1156
+MD5sum: 4e7c648c4d9082eb5dc3d5cafff1df87
+SHA1: 120dcfbdc477758133ebc077940f3470314d8365
+SHA256: 5ff7db7ca07e8af5376f4cb41ea4d7901a60958225119444e24f317b90839675
+Section: System系统
+Description: Fuck Sileo Repo Load Question.
+ - 添加 LF 的源
+ - 安裝完成後需要重啟一下 sileo 來刷新軟件源
+Author: LF
+Name: RepoFix
+

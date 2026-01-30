@@ -49,23 +49,20 @@ Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: iOS AD 源公告
 
 Package: com.AD.home.ad
-Version: 1.1.1
+Version: 1.2.0
 Architecture: all
 Maintainer: AD
-Depends: firmware (>= 14.0)
-Filename: ./pool/main/all/c/com.AD.home.ad_1.1.1_all.deb
-Size: 879584
-MD5sum: c9753132bdd65530e8d43c868ed4b83e
-SHA1: 1e744b9760f883423f8014cf2212063a70e09953
-SHA256: 706c734625bc635676593e2d71fa533ddd81ea2cbc9effca9e282952ba74ccf0
+Depends: firmware (>= 11.0)
+Filename: ./pool/main/all/c/com.AD.home.ad_1.2.0_all.deb
+Size: 876316
+MD5sum: 6405f6528e3e9ed93509988f1ff5a050
+SHA1: 70f81c2f2623b2c4f120be81af13dba8fabcd925
+SHA256: 49660255fcf763875ceb4b3c904c3a15921c3b35bc0d9ee933a35cc2075f3578
 Section: System系统
-Description: AD 的家目錄, 這是 AD 工作兼家目錄用的
+Description: AD 的 開發庫
  - 主要是開發 iOS 插件時使用的, 自帶了一點點 xun 內核頭文件
  - 添加了 entitlements 目錄 可以存放 entitlements.plist 或者 entitlements.xml 權限文件
- - 如果需要可以添加 AD="/var/AD/UsrLb" 為環境變量後 使用 cd $AD 來進入家目錄
- - 修復了因為 sys 內核頭文件目錄和用戶層頭文件衝突的問題 sys 目前頭文件存放在 include/kernel/中
- - 移除了我開發 iOS Xcode 時殘留的 iOS Xcode 源文件
 Author: AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-Name: AD的家目錄
+Name: AD lib
 

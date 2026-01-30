@@ -158,6 +158,30 @@ Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
 Name: A1
 Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
 
+Package: bc
+Version: 1.08.2
+Architecture: iphoneos-arm64
+Maintainer: AD-dev <1107154510@qq.com>
+Installed-Size: 413
+Depends: libiosexec1 (>= 1.3.1), texinfo, bison, flex
+Filename: ./pool/main/arm64/b/bc_1.08.2_iphoneos-arm64.deb
+Size: 150956
+MD5sum: 36c74bd5f6d59b47e05a80c1f4ca65c7
+SHA1: 895b5c993511ec4a6229dfb0b8feccc221c22808
+SHA256: a03d17394492dba69816959276c0847c12c6efcd3d2405ee6ca904a237aecbf5
+Section: Math
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/bc
+Description: GNU bc arbitrary precision calculator language
+ GNU bc is a language that supports arbitrary precision numbers
+ with interactive execution of statements.
+ .
+ This package contains the bc and dc utilities:
+  * bc is an arbitrary precision numeric processing language
+  * dc is an interactive arbitrary precision stack based calculator
+ .
+ Both utilities are implemented with the same code base.
+
 Package: com.12sdk.ad
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -372,24 +396,6 @@ Description: Expand your dopamine theme.扩展你的多巴胺主题
 Author: LF
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: DopamineThemesExtended-多巴胺主题扩展
-
-Package: com.adb.sct-ad
-Version: 2.6-39
-Architecture: iphoneos-arm64
-Maintainer: AD
-Pre-Depends: openssh, zsh, unzip
-Depends: openssh, zsh, unzip, sudo, dpkg, apt, coreutils, less
-Filename: ./pool/main/arm64/c/com.adb.sct-ad_2.6-39_iphoneos-arm64.deb
-Size: 7932
-MD5sum: 5bc79dcf1c3b0bbad2f77bf2769b9a00
-SHA1: 9d80798d474e4dd7fab3085b8b7421907315ffd5
-SHA256: 68bcb336ce0a4f38191af36590007d9575b02a07e4fddfb2abf5406b1b88406e
-Section: CLI-Tool
-Description: 一款仿Android的ADB的终端插件,<br></br>不过现在和Android的ADB已经有很多区别了,<br></br>下载完成后终端输入adb --help查看完整命令或者查看截图
-Author: AD
-Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-Name: iOS ADB (Apple-iPhone Debug Bridge)
-Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/com.adb.sct-ad/js.json
 
 Package: com.adb.sct-ad
 Version: 2.7
@@ -690,6 +696,28 @@ Description: 适用于 iPhone 的全新后台分屏器！现在，它是免费�
 Author: tomt000
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: DynamicStage-灵动分屏
+
+Package: pv
+Version: 1.10.3-1
+Architecture: iphoneos-arm64
+Maintainer: AD <1107154510@qq.com>
+Installed-Size: 289
+Filename: ./pool/main/arm64/p/pv_1.10.3-1_iphoneos-arm64.deb
+Size: 134636
+MD5sum: ec742475d3191c3973d5c8e1e275bceb
+SHA1: 26aa0cfcfde237bcd1502656d15b51f19030bfb4
+SHA256: 8fc227190ca7a66e8f12201fb25b28e6272196ff8512d7bd72708d70be97f0c4
+Section: Utilities
+Priority: optional
+Homepage: https://www.ivarch.com/programs/pv.shtml
+Description: Provide pv for jailbreak iOS
+ .
+ Monitor and manage the progress of data through a pipe.
+ Show the progress of data through a pipeline by giving information such as
+ time elapsed, percentage completed (with progress bar), current throughput
+ rate, total data transferred, and ETA. The data flow rate, error handling
+ strategy, buffer size, and cache interaction can all be adjusted.
+Author: Andrew Wood <andrew@ivarch.com>
 
 Package: repofix
 Version: 1.0.1
