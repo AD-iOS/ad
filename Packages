@@ -1207,6 +1207,26 @@ Author: crazymind90
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: iTheosMaker
 
+Package: jp2a
+Version: 1.1.0
+Architecture: iphoneos-arm64e
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 132
+Depends: libiosexec1 (>= 1.2.2), libcurl4, libjpeg62-turbo, libncursesw6, libpng16-16
+Filename: ./pool/main/iphoneos-arm64e/j/jp2a_1.1.0_iphoneos-arm64e.deb
+Size: 29504
+MD5sum: 3b822b7fece5a18a0f151a0f3b2aac02
+SHA1: 57d7ceed255446f453e059166e19f0a1bac35979
+SHA256: 98ac596bec0d18e203672698d3d5f55b068044d6db859eb3a094d5b913906b24
+Section: Multimedia
+Priority: optional
+Description: converts jpg and png images to ascii
+ Small utility that converts JPEG images to ASCII (text) using libjpeg. It
+ also can convert PNG pictures to ASCII via libpng. jp2a is very flexible.
+ It can use ANSI colors and html in output.
+ .
+ jp2a can also download and convert images from Internet via command line.
+
 Package: me.tomt000.stageduo
 Version: 1.2
 Architecture: iphoneos-arm64
@@ -1267,6 +1287,28 @@ Description: Provide pv for jailbreak iOS
  rate, total data transferred, and ETA. The data flow rate, error handling
  strategy, buffer size, and cache interaction can all be adjusted.
 Author: Andrew Wood <andrew@ivarch.com>
+
+Package: rc
+Version: 1.7.4-1
+Architecture: iphoneos-arm64e
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 160
+Depends: libiosexec1 (>= 1.2.2), libreadline8, libncursesw6
+Filename: ./pool/main/iphoneos-arm64e/r/rc_1.7.4-1_iphoneos-arm64e.deb
+Size: 53528
+MD5sum: 0c06d956371c52230c4f64cb5179a16d
+SHA1: f6f1a5f4313b55f4a4e69fdc55d4511ba399314d
+SHA256: 94edc228cd6eb78c3ee9fd16ebb2ea2d27c0bf81ae0bf733ca59a34b754b6353
+Section: Terminal_Support
+Priority: optional
+Homepage: http://tobold.org/article/rc
+Description: alternative implementation of the AT&T Plan 9 shell
+ rc is a command interpreter and programming language similar to sh(1). It is
+ based on the AT&T Plan 9 shell of the same name. The shell offers a C-like
+ syntax (much more so than the C shell), and a powerful mechanism for
+ manipulating variables. It is reasonably small and reasonably fast, especially
+ when compared to contemporary shells. Its use is intended to be interactive,
+ but the language lends itself well to scripts.
 
 Package: repofix
 Version: 1.0.0

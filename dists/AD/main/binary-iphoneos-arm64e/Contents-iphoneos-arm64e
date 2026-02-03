@@ -1,49 +1,52 @@
 Package: com.AD.repo.ad
-Version: 1.0.2
 Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: System系统
 Maintainer: AD
 Depends: firmware (>> 14.0), mobilesubstrate, preferenceloader
-Filename: ./pool/main/arm64e/c/com.AD.repo.ad_1.0.2_iphoneos-arm64e.deb
+Filename: pool/main/arm64e//c/com.AD.repo.ad_1.0.2_iphoneos-arm64e.deb
 Size: 1128
 MD5sum: 6fb70eb124161c93ca683c36e2a71ac3
 SHA1: 477b07b511fcb7361c3f403924b9111085896027
 SHA256: fb9820fddc77b641983e8e5da834e73f6aed3ae141c29f6dcc9efbca37829dbd
-Section: System系统
+SHA512: 5d5b76a9f13ca1978373c6d7cf10d66cfd499a9ecc414650d900d999de47bf265f39af2104a17eb140cf48a7a85c29e885c47a0f8c6d793722852b14131a3b0d
 Description: 添加 AD 的 發行版軟件源倉庫
  - 安裝完成後需要重啟一下 sileo 來刷新軟件源
-Author: AD
 Name: AD Repo
+Author: AD
 
 Package: com.empty-theos.ad
-Version: 1.0
 Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Theos/SDK
 Maintainer: AD
 Installed-Size: 603.1MB
-Filename: ./pool/main/arm64e/c/com.empty-theos.ad_1.0_iphoneos-arm64e.deb
+Filename: pool/main/arm64e//c/com.empty-theos.ad_1.0_iphoneos-arm64e.deb
 Size: 16727872
 MD5sum: dac0ead3e5bff07647e2563fd49052f0
 SHA1: 094a0e473c50beded8258ec3c98e525af9ca1b53
 SHA256: a8aacdf07c8f1b2eba8db88aab1a89b40274eebd10ba856ba79f1cfc86a4b23a
-Section: Theos/SDK
+SHA512: 2014d563e49c5e8cd1ec0da7d2f32abbc13a4bcd6f1ca7b1c70371ebfaeb1e2e03a68ce435ad6512d5a7c094337737a46b951cae12ec0ec2dd9087d2cee12c54
 Description: iOS Theos
   - iOS Theos 沒有SDK的theos,需要自己補齊SDK
+Name: iOS Theos
 Author: AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-Name: iOS Theos
 
 Package: jp2a
-Version: 1.1.0
 Architecture: iphoneos-arm64e
+Version: 1.1.0
+Priority: optional
+Section: Multimedia
 Maintainer: Procursus Team <support@procurs.us>
 Installed-Size: 132
 Depends: libiosexec1 (>= 1.2.2), libcurl4, libjpeg62-turbo, libncursesw6, libpng16-16
-Filename: ./pool/main/arm64e/j/jp2a_1.1.0_iphoneos-arm64e.deb
+Filename: pool/main/arm64e//j/jp2a_1.1.0_iphoneos-arm64e.deb
 Size: 29504
 MD5sum: 3b822b7fece5a18a0f151a0f3b2aac02
 SHA1: 57d7ceed255446f453e059166e19f0a1bac35979
 SHA256: 98ac596bec0d18e203672698d3d5f55b068044d6db859eb3a094d5b913906b24
-Section: Multimedia
-Priority: optional
+SHA512: 6cd4d7052c4f3baf58554a312ecca4d0ddd25cd61c69e8679a770f24cb8110cedff45c005fa5568b5ce8af454c368190cd50c5086944d208b0f12ab2b36db7b4
 Description: converts jpg and png images to ascii
  Small utility that converts JPEG images to ASCII (text) using libjpeg. It
  also can convert PNG pictures to ASCII via libpng. jp2a is very flexible.
@@ -52,18 +55,19 @@ Description: converts jpg and png images to ascii
  jp2a can also download and convert images from Internet via command line.
 
 Package: rc
-Version: 1.7.4-1
 Architecture: iphoneos-arm64e
+Version: 1.7.4-1
+Priority: optional
+Section: Terminal_Support
 Maintainer: Procursus Team <support@procurs.us>
 Installed-Size: 160
 Depends: libiosexec1 (>= 1.2.2), libreadline8, libncursesw6
-Filename: ./pool/main/arm64e/r/rc_1.7.4-1_iphoneos-arm64e.deb
+Filename: pool/main/arm64e//r/rc_1.7.4-1_iphoneos-arm64e.deb
 Size: 53528
 MD5sum: 0c06d956371c52230c4f64cb5179a16d
 SHA1: f6f1a5f4313b55f4a4e69fdc55d4511ba399314d
 SHA256: 94edc228cd6eb78c3ee9fd16ebb2ea2d27c0bf81ae0bf733ca59a34b754b6353
-Section: Terminal_Support
-Priority: optional
+SHA512: 34d7241ec93bf1992a7fa47c220df13f96e8b8f45aa68b2f98bd9bd9d101751fc35955a937dbab6262dfe63989c92d30d5750ad1513c385efcc375dcf466503e
 Homepage: http://tobold.org/article/rc
 Description: alternative implementation of the AT&T Plan 9 shell
  rc is a command interpreter and programming language similar to sh(1). It is
@@ -74,19 +78,20 @@ Description: alternative implementation of the AT&T Plan 9 shell
  but the language lends itself well to scripts.
 
 Package: repofix
-Version: 1.0.1
 Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: System系统
 Maintainer: LF
 Depends: firmware (>> 15.0), mobilesubstrate, preferenceloader
-Filename: ./pool/main/arm64e/r/repofix_1.0.1_iphoneos-arm64e.deb
+Filename: pool/main/arm64e//r/repofix_1.0.1_iphoneos-arm64e.deb
 Size: 1156
 MD5sum: 4e7c648c4d9082eb5dc3d5cafff1df87
 SHA1: 120dcfbdc477758133ebc077940f3470314d8365
 SHA256: 5ff7db7ca07e8af5376f4cb41ea4d7901a60958225119444e24f317b90839675
-Section: System系统
+SHA512: f215f628cda416e340ea7ac5efdfa140512cb30f0532d51f52f4407b3f6a9bcdd17a870d4c4497a30cfe9c53374d2db7e238a0d75e0beef7bc19be06d27f9625
 Description: Fuck Sileo Repo Load Question.
  - 添加 LF 的源
  - 安裝完成後需要重啟一下 sileo 來刷新軟件源
-Author: LF
 Name: RepoFix
+Author: LF
 
