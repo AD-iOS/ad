@@ -2,20 +2,20 @@ Package: com.AD.10086
 Version: 1.0
 Architecture: all
 Maintainer: iOS-AD
-Depends: ios (>= 999.0), firmware (>= 99.0), iPadOS (>=999.0)
+Depends: ios (>= 999.0), firmware (>= 9999.0), iPadOS (>=999.0)
 Filename: ./pool/main/all/c/com.AD.10086_1.0_all.deb
-Size: 1312
-MD5sum: 36cd7c0b36b54d70dc7c7c56e4b06240
-SHA1: 01c1b783f370a78a75128db280512c1e457ffb84
-SHA256: 2c00c435a49eed30a13b11ecac27ab7030e37c4d915deddb4d24c553d2188ac9
+Size: 1320
+MD5sum: 9597bb589fbebdb2ad83014d78ab49f2
+SHA1: 6f3a300e212904a303dcbfced03378ad0a561bec
+SHA256: b6fbc3cc41c1fd36e63c367ee9abdf0449700b3ee274e645b5437ba158fbaf58
 Section: 源公告
 Priority: required
 Description: iOS-AD源官方公告。
-  - 声明一下：本源只是将网上作者分享的插件、交流群群友做的插件、以及源主做的插件上传到本源。
-  - 其中网上作者发现的插件和群友做的插件未做任何修改。
-  - 部分插件标识符和作者插件一致导致显示问题，这是Cydia/Sileo的默认规则导致（先添加谁的源就会显示谁的），并非我们劫持插件。
-  - 若本源的部分插件或者软件安装后无法使用的话可以添加搬运工源(byg.iosios.net)去下载对应的版本或者去其他源下载对应的版本或者可以联系源主去修复。
-  - 因为源是GitHub托管的所以服务器在美国，遇到下载问题请尝试：切换VPN或者更换网络环境。
+  - 聲明一下：本源只是將網上作者分享的插件、交流群群友做的插件、以及源主做的插件上傳到本源。
+  - 其中網上作者發現的插件和群友做的插件未做任何修改。
+  - 部分插件標識符和作者插件一致導致顯示問題，這是Cydia/Sileo的默認規則導致（先添加誰的源就會顯示誰的），並非我們劫持插件。
+  - 若本源的部分插件或者軟件安裝後無法使用的話可以添加搬運工源(byg.iosios.net)去下載對應的版本或者去其他源下載對應的版本或者可以聯繫源主去修復。
+  - 因為源是GitHub托管的所以服務器在美國，遇到下載問題請嘗試：切換VPN或者更換網絡環境。
   - 交流群：
    - QQ1群：1030152896
    - QQ2群：837894083
@@ -32,9 +32,9 @@ Maintainer: iOS-AD
 Depends: ios (>= 999.0), firmware (>= 99.0), iPadOS (>=999.0), iOS (>=999.0)
 Filename: ./pool/main/all/c/com.AD.10086.Notice_1.0_all.deb
 Size: 1020
-MD5sum: 6b9dd27d4592e927175f45c6fa43a47e
-SHA1: fe4b30e3ba1cdee611d8f8e8bfea8346b38a46e2
-SHA256: 9f9d1397eee8f5292a8ae99dbca5fac16f34a74e7e560b5feda7d5089986f46a
+MD5sum: 21a5217206299a628f0be99dcd35a5e6
+SHA1: 9aa384105698ddba47586316be97ae53763da2f2
+SHA256: 63f40d510b791b1f3341a92c43b880cf77338e0089f2166a6eeabbd10ddf8a12
 Section: 源公告
 Priority: required
 Description: 本源已正式升級成發行版軟件源倉庫
@@ -47,22 +47,4 @@ Description: 本源已正式升級成發行版軟件源倉庫
 Author: iOS-AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: iOS AD 源公告
-
-Package: com.AD.home.ad
-Version: 1.2.0
-Architecture: all
-Maintainer: AD
-Depends: firmware (>= 11.0)
-Filename: ./pool/main/all/c/com.AD.home.ad_1.2.0_all.deb
-Size: 876316
-MD5sum: 6405f6528e3e9ed93509988f1ff5a050
-SHA1: 70f81c2f2623b2c4f120be81af13dba8fabcd925
-SHA256: 49660255fcf763875ceb4b3c904c3a15921c3b35bc0d9ee933a35cc2075f3578
-Section: System系统
-Description: AD 的 開發庫
- - 主要是開發 iOS 插件時使用的, 自帶了一點點 xun 內核頭文件
- - 添加了 entitlements 目錄 可以存放 entitlements.plist 或者 entitlements.xml 權限文件
-Author: AD
-Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-Name: AD lib
 

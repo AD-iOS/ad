@@ -31,7 +31,7 @@
  #
 # .github/workflows/deploy-pages.yml
  # Created by AD on 24/12/25
- # Copyright (c) 2025 AD All rights reserved.
+ # Copyright (c) 2025-2026 AD All rights reserved.
  # Automatically build web pages
 ##
 name: Deploy to GitHub Pages
