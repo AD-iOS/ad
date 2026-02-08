@@ -16,5 +16,5 @@ md5_repo.sh
 Old/*
 *.log
 *.old
-back/*
+bak/*
 mkgpg
