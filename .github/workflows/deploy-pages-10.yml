@@ -66,6 +66,6 @@ jobs:
         with:
           path: '.'
           retention-days: 10
-      - name: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages - 10
         id: deployment
         uses: actions/deploy-pages@v4
