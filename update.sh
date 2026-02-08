@@ -23,6 +23,8 @@ size_bz2=$(wc -c < Packages.bz2)
 md5_zst=$(md5sum Packages.zst | cut -d' ' -f1)
 size_zst=$(wc -c < Packages.zst)
 
+./mkgpg.sh
+
 # 提交更新
 git add .
 git commit -m "Auto-update $(date +'%Y-%m-%d %H:%M')"

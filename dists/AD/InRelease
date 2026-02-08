@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Origin: iOS-AD' Repo
 Label: iOS-AD' Repo
 Suite: AD
@@ -53,3 +56,19 @@ MD5Sum:
  47eac539f6685818465b15e436646a3c 1828 main/binary-iphoneos-all/Contents-all.bz2
  6ed365d73e5648e5281971d52695cf4f 1764 main/binary-iphoneos-all/Contents-all.gz
  a47f3ffdc3a96a94ca467e912283b013 1805 main/binary-iphoneos-all/Contents-all.zst
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEIYKC0l4sv5buhZ+Ttkj5yqKFp9AFAmmIE/4ACgkQtkj5yqKF
+p9D0jxAAuLbby2rYelcHwt61/cwgv6dgw1fxVcZ3cVK9Ltk6d/6Bj/1/eFRxam0t
+iWof/yl0oFWb84L+o/Oi3D1HWGOk4YtmCGm3Ydg/6gLPBXmrM+xcPAmxkyS9Bcrv
+AJfupG7EFv8MYfoeHdCezBdBHfuuCx+DsXIyWzvYCHOoJM/0mFUssAqD+BoQ85r7
+AnPJL7nDEl+34RQiu5Iq+Id5ZIvbPVvZbw8erXH2fzoj9hbK3lBqSMSK5RVTepgZ
+tbhDgppHvfgKnBLc/C9FX33MuoIcGldpwWMW/XvFq0n0AMHvOnpu27CzUH6wXI6j
+ySoikVkZbISe55ez6InP/JTCT0hrNaWYYVwBhPZUeUJ7OJvzttqVvY4HP5dPEEnG
+buyWLUfpz4HagJH3K218dH+vJBVl62JjvOacOtyzam5YjThr8H2Fzz3MSS2YpXmi
+99jgcKsMXDNxPYt1NLCHdls1U55QeIjZFswfp6o7ws5qXLX9WmtzFAbR9EPGDYcT
+UZ2A8F/AGeM56VLPk0AxVD9tKoEPv06GmMFz7lDY9ToP9bVzkk83GrObmGTh+0WT
+pAfhCycnex5ALhnMm/EFv4N8lJlpxBFchXv67fXbGU4RNk2AI1dSQcSpCoFSKz/Y
+kcieXiSNgwhk9GmSBXg94z6Sb6Qh9tzRJ58NIF2G5Ue6OQVnKNI=
+=jcPW
+-----END PGP SIGNATURE-----
