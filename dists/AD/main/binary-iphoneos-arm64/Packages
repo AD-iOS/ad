@@ -483,15 +483,15 @@ Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: iPerformanceTweak
 
 Package: itheosmaker
-Version: 1.1
+Version: 1.1+debug
 Architecture: iphoneos-arm64
-Maintainer: LF
+Maintainer: LF, AD
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./pool/main/arm64/i/itheosmaker_1.1_iphoneos-arm64.deb
-Size: 1219596
-MD5sum: c07f6d62a719fa29195c619612fcddd4
-SHA1: a2aeba89175a998fdbfa799432b79afd8d0a42d0
-SHA256: 9bac1f974c1db65cccb5cedf11eeab46f77add58d5ed1f25f3dd32abd313cf4e
+Filename: ./pool/main/arm64/i/itheosmaker_1.1+debug_iphoneos-arm64.deb
+Size: 1223668
+MD5sum: 0de35fce9855498237774b5b958b0800
+SHA1: 462d136901cdcfd17121eb348028b340cca46e3c
+SHA256: bf51e629dc6dff24e5bc3b04fb9bd5be8182915b5aa01af7a264c54e81a52b0c
 Section: Apply
 Description: 在iOS上编译插件（由LF加入无根越狱支持）(需要自行补齐依赖)
 Author: crazymind90
