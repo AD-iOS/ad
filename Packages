@@ -917,6 +917,54 @@ Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: Complications WatchLS
 Sponsor: LF
 
+Package: com.torrekie.battman
+Version: 1.0.3.3
+Architecture: iphoneos-arm64
+Maintainer: Torrekie <me@torrekie.dev>
+Depends: firmware (>= 12.0), cy+model.iphone (>= 10.1) | cy+model.ipad (>= 8.1), libintl8 | libintl
+Filename: ./pool/main/iphoneos-arm64/c/com.torrekie.battman_1.0.3.3_iphoneos-arm64.deb
+Size: 3118344
+MD5sum: 90e732634ed45c5b2f7bd18ac231e066
+SHA1: c01ca8aa4938e1ce49b4325e33aef83c925604ea
+SHA256: 00bce115ce0cd44654b3fcd8903d73b806f974ca64cdbf68a4d8adc0b9868dab
+Section: Applications
+Homepage: https://github.com/Torrekie/Battman
+Description: Battman the Battery Manager
+ Battman is a lightweight app that provides deep
+ real-time battery insights. From charging
+ current, voltage, temperature, to
+ Not-Charging-Reason, adapter information,
+ Smart Charging, Low Power Mode and accessory
+ detection.
+ .
+ It requires A11+ devices as for now.
+Author: Torrekie <me@torrekie.dev>
+Name: Battman
+
+Package: com.torrekie.battman
+Version: 1.0.3.3
+Architecture: iphoneos-arm
+Maintainer: Torrekie <me@torrekie.dev>
+Depends: firmware (>= 12.0), cy+model.iphone (>= 10.1) | cy+model.ipad (>= 8.1), libintl8 | libintl
+Filename: ./pool/main/iphoneos-arm/c/com.torrekie.battman_1.0.3.3_iphoneos-arm.deb
+Size: 3118352
+MD5sum: 2846a25846145f20cf8259618a6ef524
+SHA1: 13bfd6077f334bde865fa628144a1c679a15c2dd
+SHA256: 54c4af7ba6c5ef8a4b62ef392b75a22957d553fed2396620ed630e483c514684
+Section: Applications
+Homepage: https://github.com/Torrekie/Battman
+Description: Battman the Battery Manager
+ Battman is a lightweight app that provides deep
+ real-time battery insights. From charging
+ current, voltage, temperature, to
+ Not-Charging-Reason, adapter information,
+ Smart Charging, Low Power Mode and accessory
+ detection.
+ .
+ It requires A11+ devices as for now.
+Author: Torrekie <me@torrekie.dev>
+Name: Battman
+
 Package: com.xybp888.callassist16.dopamine
 Version: 1.7.8
 Architecture: iphoneos-arm64

@@ -155,6 +155,31 @@ Name: iOS Theos
 Author: AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 
+Package: com.torrekie.battman
+Architecture: iphoneos-arm
+Version: 1.0.3.3
+Section: Applications
+Maintainer: Torrekie <me@torrekie.dev>
+Depends: firmware (>= 12.0), cy+model.iphone (>= 10.1) | cy+model.ipad (>= 8.1), libintl8 | libintl
+Filename: pool/main/arm//c/com.torrekie.battman_1.0.3.3_iphoneos-arm.deb
+Size: 3118352
+MD5sum: 2846a25846145f20cf8259618a6ef524
+SHA1: 13bfd6077f334bde865fa628144a1c679a15c2dd
+SHA256: 54c4af7ba6c5ef8a4b62ef392b75a22957d553fed2396620ed630e483c514684
+SHA512: 6f97a70f1a461731ea3df84879235f446e0dae2ef961c2837bcb70d2e47262dc4b20ec8ead85efe469e2e9b1907e7716765962b3445ee433fde5db87da6525fc
+Homepage: https://github.com/Torrekie/Battman
+Description: Battman the Battery Manager
+ Battman is a lightweight app that provides deep
+ real-time battery insights. From charging
+ current, voltage, temperature, to
+ Not-Charging-Reason, adapter information,
+ Smart Charging, Low Power Mode and accessory
+ detection.
+ .
+ It requires A11+ devices as for now.
+Name: Battman
+Author: Torrekie <me@torrekie.dev>
+
 Package: pv
 Architecture: iphoneos-arm
 Version: 1.10.3-1

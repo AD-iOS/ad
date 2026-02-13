@@ -430,6 +430,31 @@ Author: Ben Giannis
 Sponsor: LF
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 
+Package: com.torrekie.battman
+Architecture: iphoneos-arm64
+Version: 1.0.3.3
+Section: Applications
+Maintainer: Torrekie <me@torrekie.dev>
+Depends: firmware (>= 12.0), cy+model.iphone (>= 10.1) | cy+model.ipad (>= 8.1), libintl8 | libintl
+Filename: pool/main/arm64//c/com.torrekie.battman_1.0.3.3_iphoneos-arm64.deb
+Size: 3118344
+MD5sum: 90e732634ed45c5b2f7bd18ac231e066
+SHA1: c01ca8aa4938e1ce49b4325e33aef83c925604ea
+SHA256: 00bce115ce0cd44654b3fcd8903d73b806f974ca64cdbf68a4d8adc0b9868dab
+SHA512: 0e8901525f53983366d07854f6367d172fb7034c2e82c76d1e7e9a1c983129f61e6b0697c6d5ba4dcc1f6745d408ffd82be2d25244473afd6bb65a43474959e7
+Homepage: https://github.com/Torrekie/Battman
+Description: Battman the Battery Manager
+ Battman is a lightweight app that provides deep
+ real-time battery insights. From charging
+ current, voltage, temperature, to
+ Not-Charging-Reason, adapter information,
+ Smart Charging, Low Power Mode and accessory
+ detection.
+ .
+ It requires A11+ devices as for now.
+Name: Battman
+Author: Torrekie <me@torrekie.dev>
+
 Package: com.xybp888.callassist16.dopamine
 Architecture: iphoneos-arm64
 Version: 1.7.8
