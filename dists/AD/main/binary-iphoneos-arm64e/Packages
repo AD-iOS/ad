@@ -1,13 +1,13 @@
 Package: a1
-Version: 1.9.7+debug2
+Version: 1.9.7+debug3
 Architecture: iphoneos-arm64e
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./pool/main/arm64e/a/a1_1.9.7+debug2(roothide).deb
-Size: 50940
-MD5sum: 693abdde31bae4ae57a901790daf03e5
-SHA1: aa67e30dc1250cb3f1b04e8cbc535de8665f3521
-SHA256: 216ab30cef3aac905798184e515b2ed8e793d2881867691cda567512ffa8396b
+Filename: ./pool/main/arm64e/a/a1_1.9.7+debug3_arm64e_RootHide.deb
+Size: 50904
+MD5sum: ab6e150712f5cf0b56faa78e767720bf
+SHA1: 0f3d59f66ca09164aab152bf02fa554dbbd58270
+SHA256: f7bb9f5a48c2b7ea29abbcd305985d1f6bc72a9b20484f17a2f5ba30ff18dc1a
 Section: Systems系统
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。

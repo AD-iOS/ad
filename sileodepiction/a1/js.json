@@ -82,6 +82,17 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
+                    "title": "1.9.7+debug3 更新日志",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "注释掉585行的 adjust_launchd_priority, 以修复launchd优先级调整默认开启的问题和后台APP的优先级全部变成 -20 的问题",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
                     "title": "1.9.7+debug2 更新日志",
                     "useBoldText": true,
                     "useBottomMargin": false

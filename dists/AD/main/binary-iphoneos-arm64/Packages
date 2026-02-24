@@ -55,15 +55,15 @@ Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: WatermelonBar
 
 Package: a1
-Version: 1.9.7+debug2
+Version: 1.9.7+debug3
 Architecture: iphoneos-arm64
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./pool/main/arm64/a/a1_1.9.7+debug2(rootless).deb
-Size: 51092
-MD5sum: 4fc1757750f818708fbeca70696debad
-SHA1: b96b28caa2329370790cda1ba194e3c6f3a50481
-SHA256: 6796f7dc6c46d684dccc463057b00e5dca779580c6c1f958da5a7dbbaa9e60ed
+Filename: ./pool/main/arm64/a/a1_1.9.7+debug3_arm64_Rootless.deb
+Size: 51136
+MD5sum: 84a1fd8189562337a29a0443af6e864b
+SHA1: 8ad1b935a6dc825d718907d7302c99eb0dadbec8
+SHA256: 10890c082af3b6428fbf95c598813ee420c50cc4b9e29ab0c0204272d175b8cb
 Section: Systems系统
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
