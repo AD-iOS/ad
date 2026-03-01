@@ -1,6 +1,6 @@
 #!/bin/sh -
 
-cd /var/mobile/ad
+# cd /var/mobile/ad
 
 # 提交更新
 git add .

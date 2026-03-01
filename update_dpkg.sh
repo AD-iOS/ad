@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /var/mobile/ad
+# cd /var/mobile/ad
 
 # 生成索引文件
 dpkg-scanpackages -m . /dev/null > Packages

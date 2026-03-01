@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /var/mobile/ad
+# cd /var/mobile/ad
 
 git add .
 git commit -m "update sileodepiction by sileodepiction-update of AD $(date +'%Y-%m-%d %H:%M')"

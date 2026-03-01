@@ -1,52 +1,25 @@
-Package: com.AD.10086
+Package: official.ad.add.apt.repo
 Version: 1.0
 Architecture: all
 Maintainer: iOS-AD
-Depends: ios (>= 999.0), firmware (>= 9999.0), iPadOS (>=999.0)
-Filename: ./pool/main/all/c/com.AD.10086_1.0_all.deb
-Size: 1320
-MD5sum: 9597bb589fbebdb2ad83014d78ab49f2
-SHA1: 6f3a300e212904a303dcbfced03378ad0a561bec
-SHA256: b6fbc3cc41c1fd36e63c367ee9abdf0449700b3ee274e645b5437ba158fbaf58
-Section: 源公告
-Priority: required
-Description: iOS-AD源官方公告。
-  - 聲明一下：本源只是將網上作者分享的插件、交流群群友做的插件、以及源主做的插件上傳到本源。
-  - 其中網上作者發現的插件和群友做的插件未做任何修改。
-  - 部分插件標識符和作者插件一致導致顯示問題，這是Cydia/Sileo的默認規則導致（先添加誰的源就會顯示誰的），並非我們劫持插件。
-  - 若本源的部分插件或者軟件安裝後無法使用的話可以添加搬運工源(byg.iosios.net)去下載對應的版本或者去其他源下載對應的版本或者可以聯繫源主去修復。
-  - 因為源是GitHub托管的所以服務器在美國，遇到下載問題請嘗試：切換VPN或者更換網絡環境。
-  - 交流群：
-   - QQ1群：1030152896
-   - QQ2群：837894083
-   - QQ文件群: 1027358518
-Author: iOS-AD
-Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-Name: iOS-AD源公告
-Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/com.AD.10086/js.json
-
-Package: com.AD.10086.Notice
-Version: 1.0
-Architecture: all
-Maintainer: iOS-AD
-Depends: ios (>= 999.0), firmware (>= 99.0), iPadOS (>=999.0), iOS (>=999.0)
-Filename: ./pool/main/all/c/com.AD.10086.Notice_1.0_all.deb
-Size: 1020
-MD5sum: 21a5217206299a628f0be99dcd35a5e6
-SHA1: 9aa384105698ddba47586316be97ae53763da2f2
-SHA256: 63f40d510b791b1f3341a92c43b880cf77338e0089f2166a6eeabbd10ddf8a12
+Depends: firmware (>= 99.0)
+Filename: ./pool/main/all/c/official.ad.add.apt.repo_1.0_all.deb
+Size: 1236
+MD5sum: 8bf4eafc5c2884a1a2b5c68f4252976e
+SHA1: 7ec6e788396fa5f9f3b62cf45e861b3bd75626d8
+SHA256: 78ce1970236723931d8006e8c95e44bbb4ac5ee3c9622672383b66b0aad27293
 Section: 源公告
 Priority: required
 Description: 本源已正式升級成發行版軟件源倉庫
- - 如果您有需要可以直接下載 AD Repo 這個插件 來直接添加發行版
+ - 如果您有需要可以直接安裝本插件, 來直接添加發行版
  - 當然你依舊可以通過: https://ad-ios.github.io/ad/ 來添加我的軟件源倉庫, 因為我有做扁平化的兼容
-   - 交流群：
-   - QQ1群：1030152896
-   - QQ2群：837894083
+   - 交流群:
+   - QQ1群: 1030152896
+   - QQ2群: 837894083
    - QQ文件群: 1027358518
 Author: iOS-AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-Name: iOS AD 源公告
+Name: add apt repository(distribution version)
 
 Package: official.ad.gpgkey.apt
 Version: 1.0
@@ -64,4 +37,50 @@ Description: 添加本源的 GPG 公鑰
 Author: iOS-AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: iOS-AD' Repo GPG
+
+Package: official.ad.repo.10086
+Name: iOS-AD源公告
+Version: 1.0
+Architecture: all
+Maintainer: iOS-AD
+Author: iOS-AD
+Section: 源公告
+Priority: required
+Filename: ./pool/main/all/official_ad_all_10086.deb
+Depends: 
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+SileoDepiction: https://ad-ios.github.io/ad/sileodepiction/com.AD.10086/js.json
+Description: iOS-AD源官方公告.
+  - 聲明一下: 本源只是將網上作者分享的插件, 交流群群友做的插件, 以及源主做的插件上傳到本源
+  - 其中網上作者發現的插件和群友做的插件未做任何修改
+  - 部分插件標識符和作者插件一致導致顯示問題, 這是 Cydia/Sileo 的默認規則導致(先添加誰的源就會顯示誰的), 並非我們劫持插件
+  - 若本源的部分插件或者軟件安裝後無法使用, 並且搬運工源也有的話可以去添加搬運工源(byg.iosios.net)後, 下載對應的版本或者去其他源下載對應的版本
+  - 因為源是託管在 GitHub 的所以遇到下載問題請嘗試使用 VPN, 切換 VPN, 更換網絡環境等方式
+  - 交流群:
+   - QQ1群：1030152896
+   - QQ2群：837894083
+   - QQ文件群: 1027358518
+
+Package: official.ad.repo.10086
+Name: iOS-AD源公告
+Version: 1.0
+Architecture: all
+Maintainer: iOS-AD
+Author: iOS-AD
+Section: 源公告
+Priority: required
+Filename: ./pool/main/all/official_ad_all_10086.deb
+Depends: 
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+SileoDepiction: https://ad-ios.github.io/ad/sileodepiction/com.AD.10086/js.json
+Description: iOS-AD源官方公告.
+  - 聲明一下: 本源只是將網上作者分享的插件, 交流群群友做的插件, 以及源主做的插件上傳到本源
+  - 其中網上作者發現的插件和群友做的插件未做任何修改
+  - 部分插件標識符和作者插件一致導致顯示問題, 這是 Cydia/Sileo 的默認規則導致(先添加誰的源就會顯示誰的), 並非我們劫持插件
+  - 若本源的部分插件或者軟件安裝後無法使用, 並且搬運工源也有的話可以去添加搬運工源(byg.iosios.net)後, 下載對應的版本或者去其他源下載對應的版本
+  - 因為源是託管在 GitHub 的所以遇到下載問題請嘗試使用 VPN, 切換 VPN, 更換網絡環境等方式
+  - 交流群:
+   - QQ1群：1030152896
+   - QQ2群：837894083
+   - QQ文件群: 1027358518
 

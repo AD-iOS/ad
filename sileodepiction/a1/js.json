@@ -57,7 +57,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.9.7+debug2",
+                    "text": "1.9.7+debug6",
                     "title": "最新版本"
                 },
                 {
@@ -67,7 +67,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2026 年 2 月 20 日",
+                    "text": "2026 年 3 月 1 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -80,6 +80,50 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "1.9.7+debug7 更新日志",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "修復了 a1ctl 調用 a1hub 失敗的問題",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "1.9.7+debug6 更新日志",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "修復 a1ctl 的 use_root_a1ctl 會導致無限循環的問題 <br> 修復 a1 記錄日誌時部分正常的日誌會被記錄到錯誤日誌的問題 <br> 修復了一些已知的問題",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "1.9.7+debug5 更新日志",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "嘗試減低電流消耗",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "1.9.7+debug4 更新日志",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "優化性能,降低了占用,使其更省電",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "1.9.7+debug3 更新日志",

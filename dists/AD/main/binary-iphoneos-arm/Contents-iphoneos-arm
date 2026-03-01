@@ -1,15 +1,15 @@
 Package: a1
-Architecture: iphoneos-arm
-Version: 1.9.7+debug1
+Architecture: iphoneos-arm6
+Version: 1.9.7+debug7
 Section: Systems系统
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: pool/main/arm//a/a1_1.9.7+debug1(rootful).deb
-Size: 50832
-MD5sum: 4c6ed71191bc7fa89fe51672d8696358
-SHA1: 46afaa12ca5a986231d1e1bf7d700736297f8ff2
-SHA256: 3c70fbf412c2a6fa0446740aa58b465d027c36b2662b311b3fcea1a4569e216a
-SHA512: ca5a12f30cc4929f09ddce72768add29c12d4f8bb49efa5f50e1d35a14b6bc9fdd1b75bec5286a2b9d6d722b8121247e2e96f58d8e8776907ec9bb50ed77c673
+Filename: pool/main/arm//a/a1_1.9.7+debug7_iphoneos-arm.deb
+Size: 51832
+MD5sum: d251d6423256ef44bde17517873ef4d8
+SHA1: b3d667b82a2eccf3195ce8d196140cf01474a98e
+SHA256: dfaa3b53e404893f1e813f37ba1f275a457beaaf611697e44939a305d642bbb9
+SHA512: 3da223644c8de38c94000a887a0540ab2eb6f5786708313510a656c83d2c79d7e592deb3fbe3167b2515c7323cdf2f69fc3e1a4d208fc66910b7aca41cf9f17c
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.

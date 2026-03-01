@@ -20,7 +20,7 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://raw.githubusercontent.com/ad-ios/ad/main/sileodepiction/com.AD.10086/Screenshot_01.png"
+                            "url": "https://raw.githubusercontent.com/ad-ios/ad/main/sileodepiction/official.ad.repo.10086/Screenshot_01.png"
                         }
                     ]
                 },
@@ -57,17 +57,17 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.1",
+                    "text": "0.2",
                     "title": "最新版本"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "markdown": "不支持所有系統\n\n(因為僅可查看)",
+                    "markdown": "unknown",
                     "title": "理论支持系统范围"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 10 月 07 日",
+                    "text": "2026 年 3 月 1 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -82,13 +82,13 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "0.1",
+                    "title": "unknown",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "空空如也",
+                    "markdown": "no update log",
                     "useRawFormat": true
                 }
             ]
