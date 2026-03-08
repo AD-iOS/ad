@@ -96,6 +96,29 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: bash
+Filename: ./pool/main/iphoneos-arm64/D/DYFonts_1.0_iphoneos-arm64.deb
+Size: 8772708
+MD5sum: a4b065243e1cfc438c8c19e0324ce95d
+SHA1: 97d4c50972768984f3cf365bf87701a8ec1dcc4c
+SHA256: 0a5750be13b3dc1bdf7e8fc82fa28757b43499b74e3c122f9ba2631b1ebe6492
+Section: Themes主题
+Description: 非常好看的抖音圆体！现已支持真皮挂载
+  - 使用说明：
+    1. 在真皮多巴胺中挂载 /System/Library/Fonts 目录
+    2. 安装本插件
+    3. 重启设备即可生效
+  - 注意事项：
+    - 仅支持 iOS 15.0 及以上系统
+    - 需要完整的越狱环境
+Author: 百度主题源
+Icon: https://chinesebuilding.club/pic/zt.png
+Name: DYFonts(挂载版)
+
+Package: DYFonts
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: bash
 Filename: ./pool/lfjb/binary-iphoneos-arm64/D/DYFont.deb
 Size: 8768764
 MD5sum: a1dfd124de965841db168aeb84345cc3
@@ -106,6 +129,22 @@ Description: 非常好看的抖音圆体！现已支持真皮挂载，在多巴�
 Author: 百度主题源
 Icon: https://chinesebuilding.club/pic/zt.png
 Name: DYFonts(挂载版)
+
+Package: LegacyPatcher
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./pool/main/iphoneos-arm64/L/LP-iphoneos-arm64.deb
+Size: 95856
+MD5sum: 67f11c40300c1508e6bd533d93a0a9e4
+SHA1: 619cb6188ad1a1b210fbde306f3c23b19853afa0
+SHA256: 8af0a71c717c1d6fa5ef1a9f4c90a9c3f3b162f82f40d2b5fa743b8cd7094710
+Section: Systems系统
+Description: Optimized patches for old equipment.为老设备准备的优化补丁，让你的老设备焕发第二春！通过禁用设备性能限制，优化动画流畅性，修复网络配置 来给老设备新的体验！Enjoy!
+Author: LF
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/jetsamunlimited.png
+Name: LegacyPatcher
 
 Package: LegacyPatcher
 Version: 1.0
@@ -136,6 +175,21 @@ Section: Systems系统
 Description: Optimized patches for old equipment.为老设备准备的优化补丁，让你的老设备焕发第二春！通过禁用设备性能限制，优化动画流畅性，修复网络配置 来给老设备新的体验！Enjoy!
 Author: LF
 Name: LegacyPatcher
+
+Package: LinearBarSwitch
+Version: 1.4.2-1S
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./pool/main/iphoneos-arm64/L/LinearBar_1.4.2-1S-iphoneos-arm64.deb
+Size: 201812
+MD5sum: 74ab572bb92adb7ccb225325714854e4
+SHA1: 436c58bd848d1db274d2f70ab450be38827401fc
+SHA256: 7c3b3cccb7970a06ac7e1f8603fae2a65a81e4d6339f55fe305dc4c20fde469e
+Section: Themes主题
+Description: Linear bar theme for CallAssist.原版的电池使用配置方式加载，但电话助手并不支持，所以使用风格类似的电池图标
+Author: alphastream and UAE_AD1001
+Name: LinearBar-Switch
 
 Package: PlumpyBar
 Version: 1.2
@@ -3661,6 +3715,22 @@ Description: 强制高帧率应用到每一个应用上
 Author: rain
 Name: rain的120hz
 
+Package: com.shaun.relic
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: zsy245 <zsy245@qq.com>
+Filename: ./pool/main/iphoneos-arm64/r/relic101Disclose-iphoneos-arm64.deb
+Size: 3413116
+MD5sum: ad5f5946a77abe14b08f6f3b7eefd35c
+SHA1: 5673e3a8a34f6e86cf2f16fe47bb391ea5314239
+SHA256: 65d38e33cd1e2c329562edf5e0fb2af841c2f7e64ba86d81408a87dc76d0b807
+Section: Themes主题
+Description: Relic icon theme Disclose!Now,it is free!
+Author: zsy245 <zsy245@qq.com>
+Depiction: https://havoc.app/depiction/relic
+Icon: https://media.havoc.app/6447c2d242a8f907da652809
+Name: Relic
+
 Package: com.torrekie.battman
 Version: 1.0.3.3
 Architecture: iphoneos-arm64
@@ -4075,23 +4145,6 @@ Author: iOS-AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: add apt repository(distribution version)
 
-Package: official.ad.gpgkey.apt
-Version: 1.0
-Architecture: all
-Maintainer: iOS-AD
-Depends: mobilesubstrate
-Filename: ./pool/main/binary-all/o/official.ad.gpgkey.apt_1.0_all.deb
-Size: 3844
-MD5sum: 9fd5b3a11c2691817c86b5ab412007ba
-SHA1: 7c20d62dd8552243af5cfce31d571d4782bc1736
-SHA256: 2535da81eef93673e5b41aaa4914d7d3b700222793e4f518503f3c6b39b1bdb1
-Section: Other
-Priority: required
-Description: 添加本源的 GPG 公鑰
-Author: iOS-AD
-Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-Name: iOS-AD' Repo GPG
-
 Package: pv
 Version: 1.10.3-1
 Architecture: iphoneos-arm64
@@ -4244,6 +4297,23 @@ Description: Fuck Sileo Repo Load Question.
  - 安裝完成後需要重啟一下 sileo 來刷新軟件源
 Author: LF
 Name: RepoFix
+
+Package: surge
+Version: 5.51.5
+Architecture: iphoneos-arm64
+Maintainer: LF
+Installed-Size: 620
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Filename: ./pool/main/iphoneos-arm64/s/surge_5.51.5_iphoneos-arm64.deb
+Size: 23505716
+MD5sum: 8a18e06387ac903302136b982452d1ac
+SHA1: b9826e0767de1a08ef8d276c9a1187a6b4cf10a1
+SHA256: 18c0f82f65dc4c76da6bacfc517e1b2e497ec860fef626aaf97b291c546cf872
+Section: Applications应用
+Description: Capture packets, proxy, VPN.抓包、代理、VPN。打包直装版，修改版本号为5.51.5.
+Author: pxx917144686
+Icon: https://axs66.github.io/repo/icon/surge.png
+Name: Surge 5
 
 Package: vnodebypassnext
 Version: 0.4.5.2-Next

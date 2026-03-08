@@ -21,23 +21,6 @@ Author: iOS-AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: add apt repository(distribution version)
 
-Package: official.ad.gpgkey.apt
-Version: 1.0
-Architecture: all
-Maintainer: iOS-AD
-Depends: mobilesubstrate
-Filename: ./pool/main/all/o/official.ad.gpgkey.apt_1.0_all.deb
-Size: 3844
-MD5sum: 9fd5b3a11c2691817c86b5ab412007ba
-SHA1: 7c20d62dd8552243af5cfce31d571d4782bc1736
-SHA256: 2535da81eef93673e5b41aaa4914d7d3b700222793e4f518503f3c6b39b1bdb1
-Section: Other
-Priority: required
-Description: 添加本源的 GPG 公鑰
-Author: iOS-AD
-Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-Name: iOS-AD' Repo GPG
-
 Package: official.ad.repo.10086
 Name: iOS-AD源公告
 Version: 1.0

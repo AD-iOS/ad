@@ -23,6 +23,63 @@ Name: 阿里巴巴数黑体85 (挂载版)
 Author: 1688
 Icon: https://chinesebuilding.club/pic/zt.png
 
+Package: DYFonts
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Themes主题
+Maintainer: LF
+Depends: bash
+Filename: pool/main/arm64//D/DYFonts_1.0_iphoneos-arm64.deb
+Size: 8772708
+MD5sum: a4b065243e1cfc438c8c19e0324ce95d
+SHA1: 97d4c50972768984f3cf365bf87701a8ec1dcc4c
+SHA256: 0a5750be13b3dc1bdf7e8fc82fa28757b43499b74e3c122f9ba2631b1ebe6492
+SHA512: 4721dc641aa5a2043e5b07d8e3c5b59a97a1992ccb18815f7509645f00f82f78e8c1c0b0a17e24a533553b79e1936d9ba4b6a5c164019fe4a4eba308daa57a74
+Description: 非常好看的抖音圆体！现已支持真皮挂载
+  - 使用说明：
+    1. 在真皮多巴胺中挂载 /System/Library/Fonts 目录
+    2. 安装本插件
+    3. 重启设备即可生效
+  - 注意事项：
+    - 仅支持 iOS 15.0 及以上系统
+    - 需要完整的越狱环境
+Name: DYFonts(挂载版)
+Author: 百度主题源
+Icon: https://chinesebuilding.club/pic/zt.png
+
+Package: LegacyPatcher
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Systems系统
+Maintainer: LF
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: pool/main/arm64//L/LP-iphoneos-arm64.deb
+Size: 95856
+MD5sum: 67f11c40300c1508e6bd533d93a0a9e4
+SHA1: 619cb6188ad1a1b210fbde306f3c23b19853afa0
+SHA256: 8af0a71c717c1d6fa5ef1a9f4c90a9c3f3b162f82f40d2b5fa743b8cd7094710
+SHA512: 51c414f01fcdd835a34c5ed821e07ad908338ec6bc55ba68258036b8696fbd6f7904d00bf821d5b1ae22161a453379f1a9981e6faff8c032fdb593894c46a67c
+Description: Optimized patches for old equipment.为老设备准备的优化补丁，让你的老设备焕发第二春！通过禁用设备性能限制，优化动画流畅性，修复网络配置 来给老设备新的体验！Enjoy!
+Name: LegacyPatcher
+Author: LF
+icon: https://repo.cypwn.xyz/assets/repo/Featured/jetsamunlimited.png
+
+Package: LinearBarSwitch
+Architecture: iphoneos-arm64
+Version: 1.4.2-1S
+Section: Themes主题
+Maintainer: LF
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: pool/main/arm64//L/LinearBar_1.4.2-1S-iphoneos-arm64.deb
+Size: 201812
+MD5sum: 74ab572bb92adb7ccb225325714854e4
+SHA1: 436c58bd848d1db274d2f70ab450be38827401fc
+SHA256: 7c3b3cccb7970a06ac7e1f8603fae2a65a81e4d6339f55fe305dc4c20fde469e
+SHA512: a790ae8fb54e4d32cf78290e986db2f9eb8a5635305b5c27d18ba28be1633dd1a9e6002e6ad2fc28af31395f14bc810d52aedfae80cbefe7a654cdb0180a2b3c
+Description: Linear bar theme for CallAssist.原版的电池使用配置方式加载，但电话助手并不支持，所以使用风格类似的电池图标
+Name: LinearBar-Switch
+Author: alphastream and UAE_AD1001
+
 Package: WatermelonBar
 Architecture: iphoneos-arm64
 Version: 1.2
@@ -599,6 +656,23 @@ Description: Provide pv for jailbreak iOS
  strategy, buffer size, and cache interaction can all be adjusted.
 Author: Andrew Wood <andrew@ivarch.com>
 
+Package: com.shaun.relic
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Themes主题
+Maintainer: zsy245 <zsy245@qq.com>
+Filename: pool/main/arm64//r/relic101Disclose-iphoneos-arm64.deb
+Size: 3413116
+MD5sum: ad5f5946a77abe14b08f6f3b7eefd35c
+SHA1: 5673e3a8a34f6e86cf2f16fe47bb391ea5314239
+SHA256: 65d38e33cd1e2c329562edf5e0fb2af841c2f7e64ba86d81408a87dc76d0b807
+SHA512: 80a01f5ff937fe5af335861496a2087e26cd738547cd84c57195573d7413cc4117ac06dcff9d610b527b83ecd21ce388abc970273af05ed3f9184120aaa97a03
+Description: Relic icon theme Disclose!Now,it is free!
+author: zsy245 <zsy245@qq.com>
+depiction: https://havoc.app/depiction/relic
+icon: https://media.havoc.app/6447c2d242a8f907da652809
+name: Relic
+
 Package: repofix
 Architecture: iphoneos-arm64
 Version: 1.0.1
@@ -616,6 +690,24 @@ Description: Fuck Sileo Repo Load Question.
  - 安裝完成後需要重啟一下 sileo 來刷新軟件源
 Name: RepoFix
 Author: LF
+
+Package: surge
+Architecture: iphoneos-arm64
+Version: 5.51.5
+Section: Applications应用
+Maintainer: LF
+Installed-Size: 620
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Filename: pool/main/arm64//s/surge_5.51.5_iphoneos-arm64.deb
+Size: 23505716
+MD5sum: 8a18e06387ac903302136b982452d1ac
+SHA1: b9826e0767de1a08ef8d276c9a1187a6b4cf10a1
+SHA256: 18c0f82f65dc4c76da6bacfc517e1b2e497ec860fef626aaf97b291c546cf872
+SHA512: c26ec776a21b1c3dd6500d292f8ff882c597b86dd0019be9397392e4fabbfa4ab57d38030dd323df649a8271226e6b55d553b5bb27e7b98c1be516486673c5fb
+Description: Capture packets, proxy, VPN.抓包、代理、VPN。打包直装版，修改版本号为5.51.5.
+Name: Surge 5
+Author: pxx917144686
+Icon: https://axs66.github.io/repo/icon/surge.png
 
 Package: vnodebypassnext
 Architecture: iphoneos-arm64
