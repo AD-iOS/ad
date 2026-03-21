@@ -22,6 +22,23 @@ Name: add apt repository(distribution version)
 Author: iOS-AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 
+Package: official.ad.adsu
+Architecture: all
+Version: 1.5-4
+Section: adopt
+Maintainer: AD <ad-ios334@outlook.com>
+Depends:
+Filename: pool/main/all//c/official.ad.adsu_1.5-4_all.deb
+Size: 52820
+MD5sum: ecf80a36a36b8a2a020e718aa7b13014
+SHA1: 5b6ea1d2179495492c8817d0eecb098266f2cf7f
+SHA256: 72a0bf28ed369682bb36502c48d7da6156b65c13c911de1d389cf9da44413eaf
+SHA512: 69a814b74eab406e836696ec1069639ef99ac32f0efd86b35a7263d90f74e684c8f2e56196cf4bcf26fa0fe564b8f8c8f3345f019a9fe856efc705aea1b2c419
+Description: adsu a simple substitute for su, pam is not required, but a password is required (if the account has a password)
+Name: adsu
+Author: AD <ad-ios334@outlook.com>
+SileoDepiction: https://ad-ios.github.io/ad/sileodepiction/official.ad.adsu/js.json
+
 Package: official.ad.repo.10086
 Name: iOS-AD源公告
 Version: 1.0

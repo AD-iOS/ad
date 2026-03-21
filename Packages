@@ -4145,6 +4145,107 @@ Author: iOS-AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: add apt repository(distribution version)
 
+Package: official.ad.adsu
+Version: 1.0.2-3
+Architecture: all
+Maintainer: AD
+Filename: ./pool/main/history/binary-all/c/official.ad.adsu_1.0.2-3_all.deb
+Size: 26284
+MD5sum: c1b0758b6ed35ec1761395d47ba4eff2
+SHA1: 61998aaa44b37f822e7ece4e6e1c969ee2b058a0
+SHA256: d1c53fe4ae64ee81f7cf9308e44ef5065383528e33fbc18b39f93a20737d8a56
+Section: adopt
+Description: adsu a simple substitute for su, pam is not required, but a password is required (if the account has a password)
+Author: AD
+Name: adsu
+
+Package: official.ad.adsu
+Version: 1.0.2-4
+Architecture: all
+Maintainer: AD
+Filename: ./pool/main/history/binary-all/c/official.ad.adsu_1.0.2-4_all.deb
+Size: 26188
+MD5sum: ba65d9f02eccf9288381a3f01c6ea5cf
+SHA1: 97aa8c22684871a17c3710b77025a05972fc4cd0
+SHA256: 8fce5f66cb39579ea80ca7ffa72e23469e09fde70efc7d4676a14ed38f6b84f7
+Section: adopt
+Description: adsu a simple substitute for su, pam is not required, but a password is required (if the account has a password)
+Author: AD
+Name: adsu
+
+Package: official.ad.adsu
+Version: 1.0.2-6
+Architecture: all
+Maintainer: AD
+Filename: ./pool/main/history/binary-all/c/official.ad.adsu_1.0.2-6_all.deb
+Size: 25904
+MD5sum: 8c933f59e539a4ef0588d0d3e600e5a3
+SHA1: c7397a640e38562466c52396a9824d99bca281e9
+SHA256: a4c39f5655ef7988c1171b90f7205445259ca73cd3056c19c293fcf3bfa66af6
+Section: adopt
+Description: adsu a simple substitute for su, pam is not required, but a password is required (if the account has a password)
+Author: AD
+Name: adsu
+
+Package: official.ad.adsu
+Version: 1.0.2-7
+Architecture: all
+Maintainer: AD
+Filename: ./pool/main/history/binary-all/c/official.ad.adsu_1.0.2-7_all.deb
+Size: 25916
+MD5sum: d7aeacaec67e269fa1cbd763181265c1
+SHA1: 2c73808e384df85aef7f970a0b17d68b70db45af
+SHA256: a42fe0fea3220acdf2c6b5533204b3619abcd28d625671337d3f3a8166cf2508
+Section: adopt
+Description: adsu a simple substitute for su, pam is not required, but a password is required (if the account has a password)
+Author: AD
+Name: adsu
+
+Package: official.ad.adsu
+Version: 1.5-2
+Architecture: all
+Maintainer: AD
+Filename: ./pool/main/history/binary-all/c/official.ad.adsu_1.5-2_all.deb
+Size: 52760
+MD5sum: 6e143dec040b7552789ba9482dd86f39
+SHA1: cb324dd4622e7e5dcfc67ad7ec7ed906103cd96f
+SHA256: 4b405fab218e5d16d2d551eec795fa6c4c4c24a413b610176311086cc21c9e71
+Section: adopt
+Description: adsu a simple substitute for su, pam is not required, but a password is required (if the account has a password)
+Author: AD
+Name: adsu
+Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/official.ad.adsu/js.json
+
+Package: official.ad.adsu
+Version: 1.5-3
+Architecture: all
+Maintainer: AD
+Filename: ./pool/main/history/binary-all/c/official.ad.adsu_1.5-3_all.deb
+Size: 52800
+MD5sum: dab78f8ae3bf82302bdd0524d8bd950e
+SHA1: 86a11857ec9049677c8faba686ca8f2c3899a1e6
+SHA256: 69910d9b7844985cfa95b4dc7cfe14c9096631c98f1c1a0f2df766a6742079e5
+Section: adopt
+Description: adsu a simple substitute for su, pam is not required, but a password is required (if the account has a password)
+Author: AD
+Name: adsu
+Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/official.ad.adsu/js.json
+
+Package: official.ad.adsu
+Version: 1.5-4
+Architecture: all
+Maintainer: AD <ad-ios334@outlook.com>
+Filename: ./pool/main/binary-all/c/official.ad.adsu_1.5-4_all.deb
+Size: 52820
+MD5sum: ecf80a36a36b8a2a020e718aa7b13014
+SHA1: 5b6ea1d2179495492c8817d0eecb098266f2cf7f
+SHA256: 72a0bf28ed369682bb36502c48d7da6156b65c13c911de1d389cf9da44413eaf
+Section: adopt
+Description: adsu a simple substitute for su, pam is not required, but a password is required (if the account has a password)
+Author: AD <ad-ios334@outlook.com>
+Name: adsu
+Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/official.ad.adsu/js.json
+
 Package: pv
 Version: 1.10.3-1
 Architecture: iphoneos-arm64
