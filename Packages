@@ -4246,6 +4246,21 @@ Author: AD <ad-ios334@outlook.com>
 Name: adsu
 Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/official.ad.adsu/js.json
 
+Package: official.ad.libroothide-dev
+Version: 0.1.0-2
+Architecture: iphoneos-arm64e
+Maintainer: AD <ad-ios334@outlook.com>
+Installed-Size: 25.3
+Depends: roothide
+Filename: ./pool/main/iphoneos-arm64e/o/official.ad.libroothide-dev_0.1.0-2_iphoneos-arm64e.deb
+Size: 7156
+MD5sum: ec314632f75003228e0bab6c593ed1d8
+SHA1: 085b9a94d46d64f6263c5a7b2d6b6ab7ddf00808
+SHA256: 49223d0e7f9efe3b8729ad3d73776a53890a35df016b085ccc47ad3090a3c6c0
+Priority: optional
+Description: the roothide development library provides api such as jbroot and rootfs, which is suitable for developing roothide suites.
+Author: AD <ad-ios334@outlook.com>
+
 Package: pv
 Version: 1.10.3-1
 Architecture: iphoneos-arm64

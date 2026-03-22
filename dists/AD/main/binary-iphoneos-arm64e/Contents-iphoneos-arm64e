@@ -181,6 +181,22 @@ Description: converts jpg and png images to ascii
  .
  jp2a can also download and convert images from Internet via command line.
 
+Package: official.ad.libroothide-dev
+Architecture: iphoneos-arm64e
+Version: 0.1.0-2
+Priority: optional
+Maintainer: AD <ad-ios334@outlook.com>
+Installed-Size: 25.3
+Depends: roothide
+Filename: pool/main/arm64e//o/official.ad.libroothide-dev_0.1.0-2_iphoneos-arm64e.deb
+Size: 7156
+MD5sum: ec314632f75003228e0bab6c593ed1d8
+SHA1: 085b9a94d46d64f6263c5a7b2d6b6ab7ddf00808
+SHA256: 49223d0e7f9efe3b8729ad3d73776a53890a35df016b085ccc47ad3090a3c6c0
+SHA512: 33ff2b3b12412fe54da3d701dd1ed67e1bd74b77428b81e70a979c241b994f1762b159800518174d6a9707bf89b1c13f5523a5f9d715f09601b07677e3509c14
+Description: the roothide development library provides api such as jbroot and rootfs, which is suitable for developing roothide suites.
+Author: AD <ad-ios334@outlook.com>
+
 Package: pv
 Architecture: iphoneos-arm64e
 Version: 1.10.3-1
