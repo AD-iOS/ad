@@ -24,17 +24,17 @@ Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 
 Package: official.ad.adsu
 Architecture: all
-Version: 1.5-4
+Version: 1.6-1
 Section: adopt
 Maintainer: AD <ad-ios334@outlook.com>
 Depends:
-Filename: pool/main/all//c/official.ad.adsu_1.5-4_all.deb
-Size: 52820
-MD5sum: ecf80a36a36b8a2a020e718aa7b13014
-SHA1: 5b6ea1d2179495492c8817d0eecb098266f2cf7f
-SHA256: 72a0bf28ed369682bb36502c48d7da6156b65c13c911de1d389cf9da44413eaf
-SHA512: 69a814b74eab406e836696ec1069639ef99ac32f0efd86b35a7263d90f74e684c8f2e56196cf4bcf26fa0fe564b8f8c8f3345f019a9fe856efc705aea1b2c419
-Description: adsu a simple substitute for su, pam is not required, but a password is required (if the account has a password)
+Filename: pool/main/all//c/official.ad.adsu_1.6-1_all.deb
+Size: 58596
+MD5sum: dba4e5e0c77d82891dbf5ca27edd25cd
+SHA1: b9d5fa8c59acc8d959dbe5cf36f01d675d1763d0
+SHA256: 95af08e24037ac1780a364f235d12e42f47b0ba911fc1a64a360183953ae88d7
+SHA512: 13245bc9fd6b38c8862a32f45ea944058c29221e0f8a6ca53ca31cf3f1674c168a76f2568f6df247d4cc19f81dbafc018fce257a65dd5fcd4b5d75ffc218584e
+Description: adsu a simple substitute for su, pam is not required, but a password is required? (if the account has a password), possibly no need passwd
 Name: adsu
 Author: AD <ad-ios334@outlook.com>
 SileoDepiction: https://ad-ios.github.io/ad/sileodepiction/official.ad.adsu/js.json

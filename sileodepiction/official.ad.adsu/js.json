@@ -10,7 +10,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "adsu a simple substitute for su, pam is not required, but a password is required (if the account has a password)",
+                    "markdown": "Description: adsu a simple substitute for su, pam is not required, but a password is required? (if the account has a password), possibly no need passwd",
                     "useRawFormat": false
                 },
                 {
@@ -57,7 +57,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.5-4",
+                    "text": "1.6-1",
                     "title": "最新版本"
                 },
                 {
@@ -67,7 +67,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2026 年 3 月 21 日",
+                    "text": "2026 年 4 月 1 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -80,6 +80,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "1.6-1 更新日志",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "本次更新修復了一些已知的問題, 發現好像不需要密碼也可以登入的問題, 但是決定暫時保留著這個特性",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "1.5-4 更新日志",
