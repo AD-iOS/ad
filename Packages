@@ -4261,6 +4261,22 @@ Author: AD <ad-ios334@outlook.com>
 Name: adsu
 Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/official.ad.adsu/js.json
 
+Package: official.ad.and.lf.app.a1
+Version: 0.0.5+debug3-3
+Architecture: all
+Maintainer: AD <ad-ios334@outlook.com>, LF
+Pre-Depends: firmware (>=14.0)
+Filename: ./pool/main/binary-all/o/official.ad.and.lf.app.a1_0.0.5+debug3-3_all.deb
+Size: 93416
+MD5sum: fa98742b3a7ce5d99120286f45d3d5c4
+SHA1: ea44ae8692675972d73d68731391b68cb733323a
+SHA256: 529ff74814ca1e407504de16728df7bfdaae808386e802b3c6d29fde4c38264f
+Section: App
+Description: this is the app version of a1ctl, support roothide
+Author: LF
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: A1 App
+
 Package: official.ad.libroothide-dev
 Version: 0.1.0-2
 Architecture: iphoneos-arm64e

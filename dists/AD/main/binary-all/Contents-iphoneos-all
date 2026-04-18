@@ -39,6 +39,23 @@ Name: adsu
 Author: AD <ad-ios334@outlook.com>
 SileoDepiction: https://ad-ios.github.io/ad/sileodepiction/official.ad.adsu/js.json
 
+Package: official.ad.and.lf.app.a1
+Architecture: all
+Version: 0.0.5+debug3-3
+Section: App
+Maintainer: AD <ad-ios334@outlook.com>, LF
+Pre-Depends: firmware (>=14.0)
+Filename: pool/main/all//o/official.ad.and.lf.app.a1_0.0.5+debug3-3_all.deb
+Size: 93416
+MD5sum: fa98742b3a7ce5d99120286f45d3d5c4
+SHA1: ea44ae8692675972d73d68731391b68cb733323a
+SHA256: 529ff74814ca1e407504de16728df7bfdaae808386e802b3c6d29fde4c38264f
+SHA512: a67887e5e036b4b795e24421b212921e94b56be07526718fadafa1e2e66a7198ce8fded3c7188a5b77213be98fee46b2bac513397562bf60255173390be09f6d
+Description: this is the app version of a1ctl, support roothide
+Name: A1 App
+Author: LF
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+
 Package: official.ad.repo.10086
 Name: iOS-AD源公告
 Version: 1.0

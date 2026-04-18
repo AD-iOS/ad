@@ -57,7 +57,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.9.7+debug6",
+                    "text": "1.9.8-beta1+debug2-1",
                     "title": "最新版本"
                 },
                 {
@@ -67,7 +67,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2026 年 3 月 1 日",
+                    "text": "2026 年 04 月 19 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -80,6 +80,28 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "1.9.8-beta1+debug2-1",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "修復了一次重大的錯誤<br>  這個錯誤會直接導致 a1 獲取配置失敗進而導致運行失敗, 簡單的說就是如果有人掛載了`/etc`那麼 a1 的檢測會把 rootless 判定成 rootful/roothide 導致 rootless 獲取配置失敗, 於是便改進了檢測方法, 使用 dpkg 來獲取到當前越獄環境, 然後在利用它來獲取其他配置<br>允許修改 flock 機制<br>  之前 lock 鎖機制是不讓改的狀態, 這一次更新因為 AD 成功實作出來了 linux flock 所以 lock 機制便進行了一次重構, 現在 lock 機制允許你開或者關(默認情況下是開), 如果你選擇了關, 那麼有可能會因為多個進程同時修改一個配置文件的情況下導致配置文件損壞等, 但是他帶來了多線程和並發性, 如果你選擇了來那麼配置資料便得到了保證, 不會因為多進程問題導致損壞, 但是缺點便是但線程<br>修復了其他已知的問題",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "1.9.7+debug10 更新日志",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "加入自动守护功能并与自动调整区分开來<br>a1ctl细节优化<br>修复已知问题<br>由于加入新功能，请全新安装a1, 不要恢复之前的备份",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "1.9.7+debug7 更新日志",
